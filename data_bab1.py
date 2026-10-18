@@ -1,15 +1,10 @@
 # Fungsi 3 susun (Furigana - Kanji - Arti)
 def kotoba(kanji, furigana, arti):
-    # Jika tidak ada furigana, biarkan kosong agar tingginya tetap rata
+    # Jika tidak ada furigana, gunakan &nbsp; agar tingginya tetap sejajar
     furigana_html = f"{furigana}" if furigana else "&nbsp;"
     
-    return f"""
-    <div style="display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;">
-        <span style="font-size: 0.6em; line-height: 1.1; color: #666;">{furigana_html}</span>
-        <span style="font-size: 1.2em; line-height: 1.2; font-weight: 500;">{kanji}</span>
-        <span style="font-size: 0.6em; line-height: 1.1; color: #0066cc;">{arti}</span>
-    </div>
-    """
+    # HAPUS semua enter dan jadikan string satu baris lurus agar tidak dibaca sebagai Markdown Code Block
+    return f"<div style='display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;'><span style='font-size: 0.6em; line-height: 1.1; color: #666;'>{furigana_html}</span><span style='font-size: 1.2em; line-height: 1.2; font-weight: 500;'>{kanji}</span><span style='font-size: 0.6em; line-height: 1.1; color: #0066cc;'>{arti}</span></div>"
 
 # Data Dictionary
 data_bab1 = {
