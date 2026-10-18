@@ -8,7 +8,7 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Styling Kartu Putih Minimalis dengan Aksen Netral */
+    /* Styling Kartu Putih Minimalis */
     .materi-card {
         background-color: #ffffff;
         padding: 20px;
@@ -17,9 +17,8 @@ st.markdown(
         border: 1px solid #e2e8f0;
         margin-bottom: 15px;
     }
-    /* Menggunakan warna teks gelap yang elegan, tanpa biru mencolok */
     .text-jp { color: #1e293b; line-height: 2.8; font-size: 1.15rem; }
-    .text-id { font-size: 1.05rem; line-height: 1.8; color: #475569; display: flex; align-items: center; }
+    .text-id { font-size: 1.05rem; line-height: 1.8; color: #2b2d42; display: flex; align-items: center; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -27,7 +26,7 @@ st.markdown(
 
 st.sidebar.title("📚 Navigasi Modul")
 
-# Navigasi menggunakan Dropdown (selectbox) agar lebih rapi dan elegan
+# Navigasi menggunakan Dropdown per Bab
 bab_options = [
     "Bab 1: Pengetahuan Dasar Pengemudi Truk",
     "Bab 2: Keselamatan & Pengaruh Kecelakaan",
