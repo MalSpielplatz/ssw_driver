@@ -60,3 +60,7 @@ if selected_bab.startswith("Bab 1"):
                 )
 elif selected_bab.startswith("Bab 2"):
     st.info("Materi Bab 2 sedang dalam penyusunan.")
+elif selected_bab.startswith("Bab 3"):
+    st.info("Materi Bab 3 sedang dalam penyusunan.")
+elif selected_bab.startswith("Bab 4"):
+    st.info("Materi Bab 4 sedang dalam penyusunan.")
