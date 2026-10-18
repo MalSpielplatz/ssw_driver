@@ -1,9 +1,9 @@
-# Fungsi 3 susun dengan warna yang lebih bersih dan profesional
+# Fungsi 3 susun: Furigana merah di atas, Kanji di tengah, Arti di bawah
 def kotoba(kanji, furigana, arti):
     furigana_html = f"{furigana}" if furigana else "&nbsp;"
-    return f"<div style='display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;'><span style='font-size: 0.6em; line-height: 1.1; color: #64748b;'>{furigana_html}</span><span style='font-size: 1.2em; line-height: 1.2; font-weight: 500; color: #0f172a;'>{kanji}</span><span style='font-size: 0.6em; line-height: 1.1; color: #0284c7;'>{arti}</span></div>"
+    return f"<div style='display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;'><span style='font-size: 0.6em; line-height: 1.1; color: #e63946; font-weight: bold;'>{furigana_html}</span><span style='font-size: 1.2em; line-height: 1.2; font-weight: 500; color: #0f172a;'>{kanji}</span><span style='font-size: 0.6em; line-height: 1.1; color: #1d3557;'>{arti}</span></div>"
 
-# Data berurutan ke bawah
+# Data berurutan ke bawah untuk scroll panjang
 data_bab1 = [
     {
         "is_header": True,
