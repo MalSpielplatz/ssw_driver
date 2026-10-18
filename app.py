@@ -8,25 +8,26 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    /* Styling Kartu Putih */
+    /* Styling Kartu Putih Minimalis dengan Aksen Netral */
     .materi-card {
         background-color: #ffffff;
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        border: 1px solid #eef0f2;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+        border: 1px solid #e2e8f0;
         margin-bottom: 15px;
     }
-    /* line-height 2.8 agar tumpukan 3 lapis (Furigana-Kanji-Arti) tidak bertabrakan */
-    .text-jp { color: #1d3557; line-height: 2.8; font-size: 1.15rem; }
-    .text-id { font-size: 1.05rem; line-height: 1.8; color: #2b2d42; display: flex; align-items: center; }
+    /* Menggunakan warna teks gelap yang elegan, tanpa biru mencolok */
+    .text-jp { color: #1e293b; line-height: 2.8; font-size: 1.15rem; }
+    .text-id { font-size: 1.05rem; line-height: 1.8; color: #475569; display: flex; align-items: center; }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
 st.sidebar.title("📚 Navigasi Modul")
-# Sidebar HANYA berisi daftar Bab, BUKAN sub-bab
+
+# Navigasi menggunakan Dropdown (selectbox) agar lebih rapi dan elegan
 bab_options = [
     "Bab 1: Pengetahuan Dasar Pengemudi Truk",
     "Bab 2: Keselamatan & Pengaruh Kecelakaan",
@@ -34,17 +35,17 @@ bab_options = [
     "Bab 4: Dasar-Dasar Mengemudi Aman"
 ]
 
-selected_bab = st.sidebar.radio("Pilih Bab:", bab_options)
+selected_bab = st.sidebar.selectbox("Pilih Bab:", bab_options)
 
 if selected_bab.startswith("Bab 1"):
     st.title("🚛 Bab 1: Pengetahuan Dasar Pengemudi Truk")
     st.caption("第１章 トラック運転者の基本")
     st.divider()
 
-    # Looping seluruh isi Bab 1 dari atas ke bawah secara berurutan
+    # Looping seluruh isi Bab 1 secara berurutan ke bawah
     for item in data_bab1:
         if item.get("is_header"):
-            st.markdown(f"<h3 style='color:#1d3557; margin-top: 25px;'>{item['jp']} <br> <span style='font-size:0.75em; color:#666;'>{item['id']}</span></h3>", unsafe_allow_html=True)
+            st.markdown(f"<h3 style='color:#1e293b; margin-top: 25px;'>{item['jp']} <br> <span style='font-size:0.75em; color:#64748b;'>{item['id']}</span></h3>", unsafe_allow_html=True)
             st.write("")
         else:
             col1, col2 = st.columns(2)
