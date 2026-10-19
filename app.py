@@ -1,5 +1,8 @@
 import streamlit as st
-from data_bab1 import data_bab1
+from data_bab1 import data_bab1, data_lanjutan
+
+# Gabungkan list data
+data_bab1_lengkap = data_bab1 + data_lanjutan
 
 st.set_page_config(
     page_title="Modul SSW Truk", page_icon="🚛", layout="wide"
@@ -42,7 +45,7 @@ if selected_bab.startswith("Bab 1"):
     st.divider()
 
     # Looping seluruh isi Bab 1 secara berurutan ke bawah
-    for item in data_bab1:
+    for item in data_bab1_lengkap:
         if item.get("is_header"):
             st.markdown(f"<h3 style='color:#1e293b; margin-top: 25px;'>{item['jp']} <br> <span style='font-size:0.75em; color:#64748b;'>{item['id']}</span></h3>", unsafe_allow_html=True)
             st.write("")
