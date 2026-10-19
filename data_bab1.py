@@ -4,46 +4,226 @@ def kotoba(kanji, furigana, arti):
     return f"<div style='display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;'><span style='font-size: 0.6em; line-height: 1.1; color: #e63946; font-weight: bold;'>{furigana_html}</span><span style='font-size: 1.2em; line-height: 1.2; font-weight: 500; color: #0f172a;'>{kanji}</span><span style='font-size: 0.6em; line-height: 1.1; color: #1d3557;'>{arti}</span></div>"
 
 # Data berurutan ke bawah untuk scroll panjang
-data_bab1 = [
+data_bab1 = 
     {
         "is_header": True,
-        "jp": "１ 人々の生活や仕事を支えるトラック",
+        "jp": f"１ {kotoba('人々', 'ひとびと', 'orang-orang')}の{kotoba('生活', 'せいかつ', 'kehidupan')}や{kotoba('仕事', 'しごと', 'pekerjaan')}を{kotoba('支える', 'ささえる', 'mendukung')}トラック",
         "id": "1. Truk yang Menopang Kehidupan dan Pekerjaan Masyarakat"
     },
     {
         "is_header": True,
-        "jp": "１．１ トラックの役割",
+        "jp": f"１．１ トラックの{kotoba('役割', 'やくわり', 'peran')}",
         "id": "1.1 Peran Truk"
     },
     {
         "is_header": False,
-        "jp": f"みなさんは{kotoba('今', 'いま', 'sekarang')}、{kotoba('日本', 'にほん', 'Jepang')}でトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}になるための{kotoba('勉強', 'べんきょう', 'belajar')}を{kotoba('始', 'はじ', 'mulai')}めたところだと{kotoba('思', 'おも', 'berpikir')}います。では、{kotoba('日本', 'にほん', 'Jepang')}では、トラックはどれだけ{kotoba('活躍', 'かつやく', 'berperan')}しているのでしょうか。",
-        "id": "Anda sekalian saat ini mungkin baru saja mulai belajar untuk menjadi pengemudi truk di Jepang. Lalu, seberapa besar peran truk di Jepang?"
+        "jp": f"みなさんは{kotoba('今', 'いま', 'sekarang')}、{kotoba('日本', 'にほん', 'Jepang')}でトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}になるための{kotoba('勉強', 'べんきょう', 'belajar')}を{kotoba('始', 'はじ', 'mulai')}めたところだと{kotoba('思', 'おも', 'berpikir')}います。{kotoba('では', '', 'kalau begitu')}、{kotoba('日本', 'にほん', 'Jepang')}では、トラックはどれだけ{kotoba('活躍', 'かつやく', 'berperan')}しているのでしょうか。",
+        "id": "Anda sekalian mungkin sekarang baru saja mulai belajar untuk menjadi pengemudi truk di Jepang. Kalau begitu, seberapa besar peran truk di Jepang saat ini?"
     },
     {
         "is_header": False,
-        "jp": f"トラックは、{kotoba('身近', 'みぢか', 'dekat')}な{kotoba('食料品', 'しょくりょうひん', 'bahan makanan')}や{kotoba('衣料', 'いりょう', 'pakaian')}・{kotoba('雑貨', 'ざっか', 'barang')}をはじめ、{kotoba('工業製品', 'こうぎょうせいひん', 'produk industri')}や{kotoba('部品', 'ぶひん', 'suku cadang')}、{kotoba('建設資材', 'けんせつしざい', 'bahan bangunan')}のほか、{kotoba('石油', 'せきゆ', 'minyak')}やガスなどの{kotoba('液体', 'えきたい', 'cairan')}や{kotoba('気体', 'きたい', 'gas')}も{kotoba('運', 'はこ', 'mengangkut')}びます。",
-        "id": "Truk mengangkut kebutuhan sehari-hari seperti bahan makanan, pakaian, dan barang kelontong, produk industri dan suku cadang, bahan bangunan, serta benda cair dan gas seperti minyak dan gas."
+        "jp": f"トラックは、{kotoba('身近', 'みぢか', 'dekat')}な{kotoba('食料品', 'しょくりょうひん', 'bahan makanan')}や{kotoba('衣料', 'いりょう', 'pakaian')}・{kotoba('雑貨', 'ざっか', 'barang kelontong')}をはじめ、{kotoba('工業製品', 'こうぎょうせいひん', 'produk industri')}や{kotoba('部品', 'ぶひん', 'suku cadang')}、{kotoba('建設資材', 'けんせつしざい', 'bahan bangunan')}のほか、{kotoba('石油', 'せきゆ', 'minyak bumi')}やガスなどの{kotoba('液体', 'えきたい', 'cairan')}や{kotoba('気体', 'きたい', 'gas')}も{kotoba('運びます', 'はこびます', 'membawa')}。また、{kotoba('巨大', 'きょだい', 'raksasa')}な{kotoba('橋', 'はし', 'jembatan')}やプラント{kotoba('設備', 'せつび', 'fasilitas')}など、{kotoba('特殊', 'とくしゅ', 'khusus')}な{kotoba('物', 'もの', 'barang')}も{kotoba('運びます', 'はこびます', 'membawa')}。{kotoba('宅配便', 'たくはいびん', 'paket kiriman')}やコンビニの{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('運んでいる', 'はこんでいる', 'sedang membawa')}のもトラックです。{kotoba('鉄道', 'てつどう', 'kereta api')}、{kotoba('船', 'ふね', 'kapal')}、{kotoba('飛行機', 'ひこうき', 'pesawat')}による{kotoba('輸送', 'ゆそう', 'pengangkutan')}も{kotoba('行われて', 'おこなわれて', 'dilakukan')}いますが、{kotoba('駅', 'えき', 'stasiun')}、{kotoba('港', 'みなと', 'pelabuhan')}、{kotoba('空港', 'くうこう', 'bandara')}の{kotoba('先', 'さき', 'setelahnya')}の{kotoba('輸送', 'ゆそう', 'pengangkutan')}はトラックが{kotoba('運んで', 'はこんで', 'membawa')}います。",
+        "id": "Truk tidak hanya membawa barang-barang yang dekat dengan kita seperti bahan makanan, pakaian, dan barang kelontong, tetapi juga produk industri, suku cadang, bahan bangunan, serta cairan dan gas seperti minyak bumi dan gas. Selain itu, truk juga mengangkut barang-barang khusus seperti jembatan raksasa dan fasilitas pabrik. Truk pulalah yang mengangkut paket kiriman dan barang-barang minimarket (konbini). Meskipun pengangkutan juga dilakukan oleh kereta api, kapal laut, dan pesawat terbang, transportasi lanjutan dari stasiun, pelabuhan, dan bandara dilakukan oleh truk."
     },
     {
         "is_header": False,
-        "jp": f"また、{kotoba('巨大', 'きょだい', 'raksasa')}な{kotoba('橋', 'はし', 'jembatan')}やプラント{kotoba('設備', 'せつび', 'fasilitas')}など、{kotoba('特殊', 'とくしゅ', 'khusus')}な{kotoba('物', 'もの', 'barang')}も{kotoba('運', 'はこ', 'mengangkut')}びます。{kotoba('宅配便', 'たくはいびん', 'jasa pengiriman')}やコンビニの{kotoba('荷物', 'にもつ', 'barang/paket')}を{kotoba('運', 'はこ', 'mengangkut')}んでいるのもトラックです。",
-        "id": "Selain itu, truk juga mengangkut benda-banya khusus seperti jembatan raksasa dan fasilitas pabrik. Truk juga yang mengangkut paket pengiriman dan barang-barang minimarket."
+        "jp": f"このように、{kotoba('日本', 'にほん', 'Jepang')}では、トラックが{kotoba('国内貨物', 'こくないかもつ', 'kargo domestik')}の9{kotoba('割以上', 'わりいじょう', 'lebih dari 90%')}を{kotoba('運んで', 'はこんで', 'membawa')}おり、{kotoba('人々', 'ひとびと', 'orang-orang')}の{kotoba('生活', 'せいかつ', 'kehidupan')}や{kotoba('仕事', 'しごと', 'pekerjaan')}を{kotoba('支えて', 'ささえて', 'mendukung')}います。",
+        "id": "Dengan demikian, di Jepang, truk mengangkut lebih dari 90% kargo domestik, mendukung kehidupan dan pekerjaan orang-orang."
     },
     {
         "is_header": False,
-        "jp": f"{kotoba('鉄道', 'てつどう', 'kereta api')}、{kotoba('船', 'ふね', 'kapal')}、{kotoba('飛行機', 'ひこうき', 'pesawat terbang')}による{kotoba('輸送', 'ゆそう', 'transportasi/pengangkutan')}も{kotoba('行', 'おこな', 'dilakukan')}われていますが、{kotoba('駅', 'えき', 'stasiun')}、{kotoba('港', 'みなと', 'pelabuhan')}、{kotoba('空港', 'くうこう', 'bandara')}の{kotoba('先', 'さき', 'tujuan')}の{kotoba('輸送', 'ゆそう', 'pengangkutan')}はトラックが{kotoba('運', 'はこ', 'mengangkut')}んでいます。",
-        "id": "Meskipun transportasi dengan kereta api, kapal, dan pesawat terbang juga dilakukan, angkutan lanjutan dari stasiun, pelabuhan, dan bandara dilakukan oleh truk."
+        "jp": f"トラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}は、まさにエッセンシャルワーカー（{kotoba('社会生活', 'しゃかいせいかつ', 'kehidupan sosial')}を{kotoba('支える', 'ささえる', 'mendukung')}ために{kotoba('欠かすことのできない', 'かかすことのできない', 'tidak bisa ditinggalkan')}{kotoba('仕事', 'しごと', 'pekerjaan')}についている{kotoba('人', 'ひと', 'orang')}）だと{kotoba('言えます', 'いえま', 'dapat dikatakan')}。",
+        "id": "Dapat dikatakan bahwa pengemudi truk benar-benar merupakan pekerja esensial (orang-orang yang melakukan pekerjaan yang mutlak diperlukan untuk mendukung kehidupan sosial)."
     },
     {
         "is_header": True,
-        "jp": "１．２ もしもトラック輸送が止まったら",
-        "id": "1.2 Jika Transportasi Truk Berhenti"
+        "jp": f"１．２ {kotoba('もしも', '', 'seandainya')}トラック{kotoba('輸送', 'ゆそう', 'pengangkutan')}が{kotoba('止まったら', 'とまったら', 'berhenti')}",
+        "id": "1.2 Jika Pengangkutan Truk Berhenti"
     },
     {
         "is_header": False,
-        "jp": f"トラック{kotoba('輸送', 'ゆそう', 'transportasi')}は、{kotoba('人々', 'ひとびと', 'orang-orang')}が{kotoba('仕事', 'しごと', 'pekerjaan')}をしたり、{kotoba('生活', 'せいかつ', 'kehidupan')}をしたりするためにとても{kotoba('大切', 'たいせつ', 'penting')}です。もしも{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のトラック{kotoba('輸送', 'ゆそう', 'transportasi')}が{kotoba('止', 'と', 'berhenti')}まったら、{kotoba('商品', 'しょうひん', 'produk')}や{kotoba('部品', 'ぶひん', 'suku cadang')}、{kotoba('薬', 'くすり', 'obat')}などが{kotoba('運', 'はこ', 'mengangkut')}べなくなり、{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のお{kotoba('店', 'みせ', 'toko')}や{kotoba('工場', 'こうじょう', 'pabrik')}、{kotoba('病院', 'びょういん', 'rumah sakit')}などで{kotoba('仕事', 'しごと', 'bekerja')}ができなくなってしまいます。",
-        "id": "Transportasi truk sangat penting bagi orang-orang untuk bekerja dan menjalani kehidupan. Jika transportasi truk di seluruh Jepang terhenti, barang dagangan, suku cadang, obat-obatan, dll. tidak akan bisa diangkut, dan toko-toko, pabrik-pabrik, rumah sakit, dll. di seluruh Jepang tidak akan bisa beroperasi."
+        "jp": f"トラック{kotoba('輸送', 'ゆそう', 'pengangkutan')}は、{kotoba('人々', 'ひとびと', 'orang-orang')}が{kotoba('仕事', 'しごと', 'pekerjaan')}をしたり、{kotoba('生活', 'せいかつ', 'kehidupan')}をするためにとても{kotoba('大切', 'たいせつ', 'penting')}です。もしも{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のトラック{kotoba('輸送', 'ゆそう', 'pengangkutan')}が{kotoba('止まったら', 'とまったら', 'berhenti')}、{kotoba('商品', 'しょうひん', 'produk')}や{kotoba('部品', 'ぶひん', 'suku cadang')}、{kotoba('薬', 'くすり', 'obat')}などが{kotoba('運べなくなり', 'はこべなくなり', 'tidak bisa diangkut')}、{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のお{kotoba('店', 'みせ', 'toko')}や{kotoba('工場', 'こうじょう', 'pabrik')}、{kotoba('病院', 'びょういん', 'rumah sakit')}などで{kotoba('仕事', 'しごと', 'pekerjaan')}ができなくなってしまいます。",
+        "id": "Pengangkutan truk sangat penting bagi orang-orang untuk bekerja dan menjalani kehidupan. Seandainya pengangkutan truk di seluruh Jepang berhenti, produk, suku cadang, obat-obatan, dan lain-lain tidak akan bisa diangkut, sehingga toko, pabrik, dan rumah sakit di seluruh Jepang tidak akan bisa beroperasi."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('日本', 'にほん', 'Jepang')}でも、2011{kotoba('年', 'ねん', 'tahun')}の{kotoba('東日本大震災', 'ひがしにほんだいしんさい', 'Gempa Besar Jepang Timur')}の{kotoba('直後', 'ちょくご', 'tepat setelah')}には、{kotoba('燃料不足', 'ねんりょうぶそく', 'kekurangan bahan bakar')}により{kotoba('多く', 'おおく', 'banyak')}のトラックが{kotoba('走る', 'はしる', 'berjalan')}{kotoba('こと', '', 'hal')}ができなくなり、しばらくの{kotoba('間', 'あいだ', 'selama')}、コンビニなどで{kotoba('商品', 'しょうひん', 'produk')}を{kotoba('買えなく', 'かえなく', 'tidak bisa dibeli')}なってしまいました。",
+        "id": "Di Jepang sekalipun, tepat setelah Gempa Bumi Besar Jepang Timur tahun 2011, kekurangan bahan bakar menyebabkan banyak truk tidak bisa beroperasi, sehingga untuk sementara waktu barang tidak bisa dibeli di minimarket dan tempat lainnya."
+    },
+    {
+        "is_header": False,
+        "jp": f"ヨーロッパやアジアなどでは、ストライキでトラックがときどき{kotoba('止まります', 'とまります', 'berhenti')}。あるとき、スペインではストライキでタンクローリーが{kotoba('止まり', 'とまり', 'berhenti')}、{kotoba('燃料', 'ねんりょう', 'bahan bakar')}スタンドにガソリンを{kotoba('運べなかった', 'はこべなかった', 'tidak bisa membawa')}ためガソリンが{kotoba('不足', 'ふそく', 'kurang')}しました。そのため{kotoba('市民', 'しみん', 'warga')}が{kotoba('買い物', 'かいもの', 'belanja')}や{kotoba('病院', 'びょういん', 'rumah sakit')}に{kotoba('行けない', 'いけない', 'tidak bisa pergi')}などの{kotoba('困った', 'こまった', 'menyusahkan')}{kotoba('事態', 'じたい', 'situasi')}が{kotoba('起こりました', 'おこりました', 'terjadi')}。",
+        "id": "Di Eropa dan Asia, pemogokan terkadang membuat truk berhenti. Suatu ketika di Spanyol, truk tangki berhenti akibat pemogokan dan tidak dapat mengirimkan bensin ke pom bensin, yang menyebabkan kelangkaan bensin. Akibatnya, terjadi situasi yang menyulitkan di mana warga tidak bisa berbelanja atau pergi ke rumah sakit."
+    },
+    {
+        "is_header": False,
+        "jp": f"トラックが{kotoba('物', 'もの', 'barang')}を{kotoba('運ばなければ', 'はこばなければ', 'jika tidak diangkut')}、{kotoba('同じ', 'おなじ', 'sama')}{kotoba('こと', '', 'hal')}が{kotoba('工場', 'こうじょう', 'pabrik')}の{kotoba('生産活動', 'せいさんかつどう', 'kegiatan生産')}をはじめ{kotoba('市場', 'しじょう', 'pasar')}や{kotoba('建設現場', 'けんせつげんば', 'lokasi konstruksi')}などでも{kotoba('起こる', 'おこる', 'terjadi')}{kotoba('可能性', 'かのうせい', 'kemungkinan')}があります。",
+        "id": "Jika truk tidak mengangkut barang, hal yang sama juga bisa terjadi pada kegiatan produksi pabrik, pasar, dan lokasi konstruksi."
+    },
+    {
+        "is_header": False,
+        "jp": f"このように、トラック{kotoba('輸送', 'ゆそう', 'pengangkutan')}が、{kotoba('経済活動', 'けいざいかつどう', 'kegiatan ekonomi')}や{kotoba('生活', 'せいかつ', 'kehidupan')}のためにとても{kotoba('大切', 'たいせつ', 'penting')}であることを、{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}のみなさんも{kotoba('知って', 'しって', 'mengetahui')}おいてください。",
+        "id": "Oleh karena itu, Anda sekalian para pengemudi juga harus mengetahui bahwa pengangkutan truk sangatlah penting bagi kegiatan ekonomi dan kehidupan."
+    },
+    {
+        "is_header": True,
+        "jp": f"１．３ {kotoba('運転免許', 'うんてんめんきょ', 'SIM')}のしくみと{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックと{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラックの{kotoba('違い', 'ちがい', 'perbedaan')}",
+        "id": "1.3 Sistem SIM dan Perbedaan Truk Bisnis & Truk Pribadi"
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('運転免許', 'うんてんめんきょ', 'SIM')}のしくみ",
+        "id": "・Sistem Surat Izin Mengemudi (SIM)"
+    },
+    {
+        "is_header": False,
+        "jp": f"トラックを{kotoba('運転', 'うんてん', 'mengemudi')}するためには、そのトラックの{kotoba('大きさ', 'おおきさ', 'ukuran')}に{kotoba('応じた', 'おうじた', 'sesuai')}{kotoba('運転免許', 'うんてんめんきょ', 'SIM')}が{kotoba('必要', 'ひつよう', 'perlu')}です。{kotoba('運転免許', 'うんてんめんきょ', 'SIM')}の{kotoba('種類', 'しゅるい', 'jenis')}に{kotoba('応じて', 'おうじて', 'sesuai')}{kotoba('運転', 'うんてん', 'mengemudi')}できる{kotoba('車', 'くるま', 'kendaraan')}は{kotoba('次', 'つぎ', 'berikut')}のとおりです。",
+        "id": "Untuk mengemudikan truk, diperlukan SIM yang sesuai dengan ukuran truk tersebut. Kendaraan yang dapat dikemudikan berdasarkan jenis SIM adalah sebagai berikut:"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('大型免許', 'おおがためんきょ', 'SIM besar')}: {kotoba('大型自動車', 'おおがたじどうしゃ', 'kend. besar')}、{kotoba('中型自動車', 'ちゅうがたじどうしゃ', 'kend. menengah')}、{kotoba('準中型自動車', 'じゅんちゅうがたじどうしゃ', 'kend. semi-menengah')}、{kotoba('普通自動車', 'ふつうじどうしゃ', 'kend. biasa')}、{kotoba('小型特殊自動車', 'こがたとくしゅじどうしゃ', 'kend. khusus kecil')}",
+        "id": "SIM Besar: Kendaraan besar, kendaraan menengah, kendaraan semi-menengah, kendaraan biasa, kendaraan khusus kecil."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('中型免許', 'ちゅうがためんきょ', 'SIM menengah')}: {kotoba('中型自動車', 'ちゅうがたじどうしゃ', 'kend. menengah')}、{kotoba('準中型自動車', 'じゅんちゅうがたじどうしゃ', 'kend. semi-menengah')}、{kotoba('普通自動車', 'ふつうじどうしゃ', 'kend. biasa')}、{kotoba('小型特殊自動車', 'こがたとくしゅじどうしゃ', 'kend. khusus kecil')}",
+        "id": "SIM Menengah: Kendaraan menengah, kendaraan semi-menengah, kendaraan biasa, kendaraan khusus kecil."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('準中型免許', 'じゅんちゅうがためんきょ', 'SIM semi-menengah')}: {kotoba('準中型自動車', 'じゅんちゅうがたじどうしゃ', 'kend. semi-menengah')}、{kotoba('普通自動車', 'ふつうじどうしゃ', 'kend. biasa')}、{kotoba('小型特殊自動車', 'こがたとくしゅじどうしゃ', 'kend. khusus kecil')}",
+        "id": "SIM Semi-Menengah: Kendaraan semi-menengah, kendaraan biasa, kendaraan khusus kecil."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('普通免許', 'ふつうめんきょ', 'SIM biasa')}: {kotoba('普通自動車', 'ふつうじどうしゃ', 'kend. biasa')}、{kotoba('小型特殊自動車', 'こがたとくしゅじどうしゃ', 'kend.特別')} ",
+        "id": "SIM Biasa: Kendaraan biasa, kendaraan khusus kecil."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックと{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラックの{kotoba('違い', 'ちがい', 'perbedaan')}",
+        "id": "・Perbedaan Truk untuk Bisnis dan Truk Pribadi"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('日本', 'にほん', 'Jepang')}には、「{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラック」と「{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラック」の2{kotoba('種類', 'しゅるい', 'jenis')}のトラックがあります。",
+        "id": "Di Jepang, terdapat dua jenis truk: \"Truk untuk Bisnis\" dan \"Truk untuk Pribadi\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラック」は、{kotoba('国土交通大臣', 'こくどこうつうだいじん', 'Menteri Transportasi')}から{kotoba('営業', 'えいぎょう', 'bisnis')}を{kotoba('許可', 'きょか', 'izin')}されたトラック{kotoba('運送事業者', 'うんそうじぎょうしゃ', 'perusahaan angkutan')}（{kotoba('運送会社', 'うんそうがいしゃ', 'perusahaan angkutan')}）のトラックです。{kotoba('日本', 'にほん', 'Jepang')}では、お{kotoba('客様', 'きゃくさま', 'pelanggan')}から{kotoba('有償', 'ゆうしょう', 'berbayar')}でお{kotoba('客様', 'きゃくさま', 'pelanggan')}の{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('運ぶ', 'はこぶ', 'mengangkut')}ことができるのは、{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックだけです。{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックのナンバープレートは「{kotoba('緑地', 'みどりじ', 'latar hijau')}に{kotoba('白い', 'しろい', 'putih')}{kotoba('文字', 'もじ', 'huruf')}」であり、「{kotoba('緑', 'みどり', 'hijau')}ナンバー」などとも{kotoba('呼ばれて', 'よばれて', 'disebut')}います。",
+        "id": "\"Truk untuk Bisnis\" adalah truk milik perusahaan angkutan yang telah mendapatkan izin operasional dari Menteri Pertanahan, Infrastruktur, Transportasi, dan Pariwisata. Di Jepang, hanya truk untuk bisnis yang diizinkan mengangkut barang pelanggan dengan kompensasi (bayaran). Plat nomor truk untuk bisnis memiliki \"latar belakang hijau dengan huruf putih\", dan sering disebut juga \"Plat Hijau\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラック」は、{kotoba('会社', 'かいしゃ', 'perusahaan')}やお{kotoba('店', 'みせ', 'toko')}、{kotoba('個人', 'こじん', 'individu')}が、{kotoba('自分', 'じぶん', 'sendiri')}の{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('運ぶ', 'はこぶ', 'mengangkut')}ためのトラックです。{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラックは、{kotoba('有償', 'ゆうしょう', 'berbayar')}でお{kotoba('客様', 'きゃくさま', 'pelanggan')}の{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('運ぶ', 'はこぶ', 'mengangkut')}ことはできません。{kotoba('自家用', 'じかよう', 'untuk pribadi')}トラックのナンバープレートは「{kotoba('白地', 'しろじ', 'latar putih')}に{kotoba('緑', 'みどり', 'hijau')}の{kotoba('文字', 'もじ', 'huruf')}」であり、「{kotoba('白', 'しろ', 'putih')}ナンバー」とも{kotoba('呼ばれて', 'よばれて', 'disebut')}います。",
+        "id": "\"Truk Pribadi\" adalah truk yang digunakan oleh perusahaan, toko, atau individu untuk mengangkut barang mereka sendiri. Truk pribadi tidak diizinkan untuk mengangkut barang pelanggan dengan bayaran. Plat nomor truk pribadi memiliki \"latar belakang putih dengan huruf hijau\", dan disebut juga \"Plat Putih\"."
+    },
+    {
+        "is_header": True,
+        "jp": f"２ トラック{kotoba('事故', 'じこ', 'kecelakaan')}の{kotoba('社会的影響', 'しゃかいてきえいきょう', 'dampak sosial')}",
+        "id": "2 Dampak Sosial Kecelakaan Truk"
+    },
+    {
+        "is_header": True,
+        "jp": f"２．１ {kotoba('社会的', 'しゃかいてき', 'secara sosial')}に{kotoba('影響', 'えいきょう', 'dampak')}の{kotoba('大きい', 'おおきい', 'besar')}トラック{kotoba('事故', 'じこ', 'kecelakaan')}",
+        "id": "2.1 Kecelakaan Truk Berdampak Besar Secara Sosial"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('安全', 'あんぜん', 'aman')}・{kotoba('安心', 'あんしん', 'tenang')}・{kotoba('確実', 'かくじつ', 'pasti')}に{kotoba('輸送', 'ゆそう', 'transportasi')}していくためには、いつも{kotoba('安全', 'あんぜん', 'keselamatan')}を{kotoba('最優先', 'さいゆうせん', 'prioritas utama')}させなければいけません。",
+        "id": "Untuk mengangkut barang dengan aman, tenang, dan pasti, keselamatan harus selalu menjadi prioritas utama."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('とくに', '', 'terutama')}{kotoba('交通事故', 'こうつうじこ', 'kecelakaan lalu lintas')}は、{kotoba('人', 'ひと', 'orang')}の{kotoba('命', 'いのち', 'nyawa')}を{kotoba('奪ったり', 'うばったり', 'merenggut')}{kotoba('傷つけたり', 'きずつけたり', 'melukai')}するだけでなく、{kotoba('会社', 'かいしゃ', 'perusahaan')}の{kotoba('経営', 'けいえい', 'manajemen')}にも{kotoba('影響', 'えいきょう', 'dampak')}を{kotoba('与えます', 'あたえます', 'memberikan')}。",
+        "id": "Terutama kecelakaan lalu lintas, tidak hanya merenggut atau melukai nyawa manusia, tetapi juga berdampak pada manajemen perusahaan."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('他', 'ほか', 'lain')}の{kotoba('車', 'くるま', 'kendaraan')}に{kotoba('比べて', 'くらべて', 'dibandingkan')}{kotoba('車体', 'しゃたい', 'bodi kendaraan')}が{kotoba('大きく', 'おおきく', 'besar')}{kotoba('重い', 'おもい', 'berat')}トラックは、{kotoba('いったん', '', 'sekali')}{kotoba('事故', 'じこ', 'kecelakaan')}を{kotoba('起こす', 'おこす', 'menyebabkan')}と、{kotoba('重大事故', 'じゅうだいじこ', 'kecelakaan fatal')}に{kotoba('つながります', '', 'berujung pada')}。{kotoba('そのため', '', 'oleh karena itu')}、{kotoba('被害者', 'ひがいしゃ', 'korban')}だけでなく、その{kotoba('家族', 'かぞく', 'keluarga')}の{kotoba('生活', 'せいかつ', 'kehidupan')}にも{kotoba('影響', 'えいきょう', 'berdampak')}します。",
+        "id": "Truk, yang bodinya lebih besar dan berat dibandingkan kendaraan lain, akan berujung pada kecelakaan fatal sekali kecelakaan itu terjadi. Oleh karena itu, hal ini berdampak tidak hanya pada korban, tetapi juga pada kehidupan keluarga mereka."
+    },
+    {
+        "is_header": False,
+        "jp": f"また、トラック{kotoba('運送業界', 'うんそうぎょうかい', 'industri angkutan')}や{kotoba('社会全体', 'しゃかいぜんたい', 'masyarakat keseluruhan')}にも{kotoba('大きな', 'おおきな', 'besar')}{kotoba('損失', 'そんしつ', 'kerugian')}を{kotoba('与えます', 'あたえます', 'memberikan')}。{kotoba('ひとり', '', 'satu orang')}のトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}の{kotoba('事故', 'じこ', 'kecelakaan')}によって、{kotoba('多く', 'おおく', 'banyak')}の{kotoba('運送会社', 'うんそうがいしゃ', 'perusahaan angkutan')}のトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}が{kotoba('影響', 'えいきょう', 'dampak')}を{kotoba('受ける', 'うける', 'menerima')}ということを{kotoba('忘れてはいけません', 'わすれてはいけません', 'tidak boleh lupa')}。",
+        "id": "Selain itu, hal ini juga memberikan kerugian besar pada industri angkutan truk dan masyarakat secara keseluruhan. Tidak boleh dilupakan bahwa kecelakaan yang disebabkan oleh satu orang pengemudi truk akan memengaruhi pengemudi truk dari banyak perusahaan angkutan."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックの{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}は、{kotoba('一般', 'いっぱん', 'umum')}の{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}とはまったく{kotoba('違う', 'ちがう', 'berbeda')}「プロ{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}」です。{kotoba('職業', 'しょくぎょう', 'profesi')}としてトラックを{kotoba('運転', 'うんてん', 'mengemudi')}しているというプロ{kotoba('意識', 'いしき', 'kesadaran')}と、{kotoba('絶対', 'ぜったい', 'pasti')}に{kotoba('事故', 'じこ', 'kecelakaan')}を{kotoba('起こしてはいけない', 'おこしてはいけない', 'tidak boleh menyebabkan')}という{kotoba('強い', 'つよい', 'kuat')}{kotoba('信念', 'しんねん', 'keyakinan')}を{kotoba('持ちましょう', 'もちましょう', 'mari miliki')}。",
+        "id": "Pengemudi truk untuk bisnis adalah \"pengemudi profesional\" yang sama sekali berbeda dengan pengemudi umum. Mari miliki kesadaran profesional bahwa Anda mengemudikan truk sebagai sebuah profesi, dan keyakinan kuat bahwa Anda mutlak tidak boleh menyebabkan kecelakaan."
+    },
+    {
+        "is_header": True,
+        "jp": f"２．２ {kotoba('追突事故', 'ついとつじこ', 'kecelakaan tabrak belakang')}の{kotoba('発生状況', 'はっせいじょうきょう', 'situasi terjadinya')}",
+        "id": "2.2 Situasi Terjadinya Kecelakaan Tabrak Belakang"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックの{kotoba('交通事故', 'こうつうじこ', 'kecelakaan lalu lintas')}のうち、およそ{kotoba('半分', 'はんぶん', 'setengah')}が{kotoba('追突事故', 'ついとつじこ', 'kecelakaan tabrak belakang')}です。",
+        "id": "Dari kecelakaan lalu lintas yang melibatkan truk bisnis, sekitar setengahnya adalah kecelakaan tabrak belakang."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('追突事故', 'ついとつじこ', 'kecelakaan tabrak belakang')}の{kotoba('多く', 'おおく', 'kebanyakan')}は、{kotoba('漫然運転', 'まんぜんうんてん', 'mengemudi tanpa konsentrasi')}（{kotoba('十分', 'じゅうぶん', 'cukup')}な{kotoba('注意', 'ちゅうい', 'perhatian')}をしないで{kotoba('運転', 'うんてん', 'mengemudi')}すること）や{kotoba('脇見運転', 'わきみうんてん', 'mengemudi sambil menoleh')}によるものですが、その{kotoba('中', 'なか', 'dalam')}には{kotoba('居眠り運転', 'いねむりうんてん', 'mengemudi sambil kantuk')}や{kotoba('過労運転', 'かろううんてん', 'mengemudi karena lelah')}なども{kotoba('含まれて', 'ふくまれて', 'termasuk')}います。また、{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}では{kotoba('渋滞', 'じゅうたい', 'macet')}している{kotoba('車', 'くるま', 'kendaraan')}に{kotoba('遅い', 'おそい', 'lambat')}{kotoba('速度', 'そくど', 'kecepatan')}で{kotoba('追突', 'ついとつ', 'menabrak dr belakang')}するケースが{kotoba('多く', 'おおく', 'banyak')}、{kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}では、{kotoba('渋滞', 'じゅうたい', 'macet')}の{kotoba('最後', 'さいご', 'akhir')}に{kotoba('停止', 'ていし', 'berhenti')}している{kotoba('車', 'くるま', 'kendaraan')}に{kotoba('速い', 'はやい', 'cepat')}{kotoba('速度', 'そくど', 'kecepatan')}で{kotoba('追突', 'ついとつ', 'menabrak dr belakang')}するケースが{kotoba('目立って', 'めだって', 'menonjol')}います。",
+        "id": "Banyak kecelakaan tabrak belakang disebabkan oleh mengemudi tanpa konsentrasi (mengemudi tanpa cukup perhatian) dan mengemudi sambil melihat ke arah lain, tetapi hal ini juga mencakup mengemudi karena mengantuk dan mengemudi karena kelelahan. Selain itu, di jalan umum, banyak kasus menabrak kendaraan yang sedang macet dari belakang dengan kecepatan lambat, dan di jalan tol, kasus menabrak kendaraan yang berhenti di akhir kemacetan dari belakang dengan kecepatan tinggi sangatlah menonjol."
+    },
+    {
+        "is_header": True,
+        "jp": f"２．３ {kotoba('交差点事故', 'こうさてんじこ', 'kecelakaan di persimpangan')}の{kotoba('発生状況', 'はっせいじょうきょう', 'situasi terjadinya')}",
+        "id": "2.3 Situasi Terjadinya Kecelakaan di Persimpangan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('事業用', 'じぎょうよう', 'untuk bisnis')}トラックの{kotoba('交通事故', 'こうつうじこ', 'kecelakaan lalu lintas')}のうち、{kotoba('交差点', 'こうさてん', 'persimpangan')}での{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}との{kotoba('死亡事故', 'しぼうじこ', 'kecelakaan fatal')}が、{kotoba('全体', 'ぜんたい', 'keseluruhan')}の3{kotoba('割近く', 'わりちかく', 'hampir 30%')}を{kotoba('占め', 'しめ', 'mendominasi')}、{kotoba('交差点', 'こうさてん', 'persimpangan')}{kotoba('左折時', 'させつじ', 'saat belok kiri')}では{kotoba('自転車', 'じてんしゃ', 'sepeda')}との{kotoba('事故', 'じこ', 'kecelakaan')}、{kotoba('右折時', 'うせつじ', 'saat belok kanan')}では{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}との{kotoba('事故', 'じこ', 'kecelakaan')}が{kotoba('多く', 'おおく', 'banyak')}を{kotoba('占めて', 'しめて', 'mendominasi')}います。",
+        "id": "Dari kecelakaan lalu lintas truk bisnis, kecelakaan fatal/kematian yang melibatkan pejalan kaki dan sepeda di persimpangan mendominasi hampir 30% dari keseluruhan, di mana kecelakaan yang melibatkan sepeda banyak mendominasi saat berbelok kiri di persimpangan, dan kecelakaan yang melibatkan pejalan kaki banyak terjadi saat belok kanan."
+    },
+    {
+        "is_header": True,
+        "jp": f"２．４ {kotoba('健康起因事故', 'けんこうきいんじこ', 'kecelakaan akibat kesehatan')}の{kotoba('防止', 'ぼうし', 'pencegahan')}",
+        "id": "2.4 Pencegahan Kecelakaan Akibat Kesehatan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('健康起因事故', 'けんこうきいんじこ', 'kecelakaan akibat kesehatan')}とは、{kotoba('運転者', 'うんてんしゃ', '描く')}の{kotoba('疾病', 'しっぺい', 'penyakit')}（{kotoba('病気', 'びょうき', 'penyakit')}）により、{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('運転', 'うんてん', 'mengemudi')}を{kotoba('続ける', 'つづける', 'melanjutkan')}ことができなくなったものを{kotoba('いいます', '', 'disebut')}。",
+        "id": "Kecelakaan akibat kesehatan disebut sebagai keadaan di mana pengemudi tidak dapat melanjutkan mengemudikan kendaraan karena penyakit."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('長時間', 'ちょうじかん', 'waktu lama')}の{kotoba('運転', 'うんてん', 'mengemudi')}をするトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}にとって、{kotoba('健康', 'けんこう', 'sehat')}であることはたいへん{kotoba('重要', 'じゅうよう', 'penting')}な{kotoba('条件', 'じょうけん', 'syarat')}です。{kotoba('体調', 'たいちょう', 'kondisi tubuh')}が{kotoba('悪い', 'わるい', 'buruk')}と{kotoba('注意力', 'ちゅういりょく', 'daya perhatikan')}や{kotoba('集中力', 'しゅうちゅうりょく', 'konsentrasi')}などが{kotoba('低下', 'ていか', 'menurun')}して、{kotoba('事故', 'じこ', 'kecelakaan')}に{kotoba('つながります', '', 'berujung pada')}。",
+        "id": "Bagi pengemudi truk yang mengemudi dalam waktu lama, menjadi sehat adalah syarat yang sangat penting. Kondisi tubuh yang buruk akan menurunkan daya perhatian dan konsentrasi, yang berujung pada kecelakaan."
+    },
+    {
+        "is_header": False,
+        "jp": f"また、{kotoba('高血圧', 'こうけつあつ', 'darah tinggi')}や{kotoba('糖尿病', 'とうにょうびょう', 'diabetes')}、{kotoba('肥満', 'ひまん', 'obesitas')}などの{kotoba('生活習慣病', 'せいかつしゅうかんびょう', 'penyakit gaya hidup')}は、そのままにしておくと{kotoba('運転中', 'うんてんちゅう', 'saat mengemudi')}に{kotoba('脳卒中', 'のうそっちゅう', 'stroke')}や{kotoba('心臓発作', 'しんぞうほっさ', 'serangan jantung')}などを{kotoba('起こして', 'おこして', 'menyebabkan')}{kotoba('重大事故', 'じゅうだいじこ', 'kecelakaan fatal')}に{kotoba('つながります', '', 'berujung pada')}。",
+        "id": "Selain itu, penyakit gaya hidup seperti darah tinggi, diabetes, dan obesitas, jika dibiarkan, akan memicu stroke atau serangan jantung saat mengemudi dan berujung pada kecelakaan fatal."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('定期健康診断', 'ていきけんこうしんだん', 'cek kesehatan rutin')}を{kotoba('必ず', 'かならず', 'pasti/selalu')}{kotoba('受ける', 'うける', 'menerima')}とともに、{kotoba('日頃', 'ひごろ', 'sehari-hari')}から{kotoba('十分', 'じゅうぶん', 'cukup')}な{kotoba('睡眠', 'すいみん', 'tidur')}をとる、{kotoba('適度', 'てきど', 'cukup/sesuai')}な{kotoba('運動', 'うんどう', 'olahraga')}をする、{kotoba('飲み過ぎない', 'のみすぎない', 'tidak minum berlebihan')}などの{kotoba('体調管理', 'たいちょうかんり', 'manajemen kondisi tubuh')}をしっかり{kotoba('行って', 'おこなって', 'melakukan')}、{kotoba('健康起因事故', 'けんこうきいんじこ', 'kecelakaan akibat kesehatan')}の{kotoba('防止', 'ぼうし', 'pencegahan')}に{kotoba('努めましょう', 'つとめましょう', 'mari berusaha')}。",
+        "id": "Selain memastikan diri menerima pemeriksaan kesehatan rutin, mari berusaha mencegah kecelakaan akibat kesehatan dengan melakukan manajemen kondisi tubuh secara ketat sehari-hari seperti tidur yang cukup, olahraga yang memadai, dan tidak mengonsumsi alkohol secara berlebihan."
+    },
+    {
+        "is_header": True,
+        "jp": f"２．５ {kotoba('安全管理機器', 'あんぜんかんりきき', 'perangkat manajemen keamanan')}（デジタコとドラレコ）の{kotoba('活用', 'かつよう', 'pemanfaatan')}",
+        "id": "2.5 Pemanfaatan Perangkat Manajemen Keamanan (Digi-Tacho & Dora-Reko)"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('交通事故', 'こうつうじこ', 'kecelakaan lalu lintas')}をなくすために、さまざまな{kotoba('安全管理機器', 'あんぜんかんりきき', 'perangkat manajemen keamanan')}が{kotoba('活用', 'かつよう', 'dimanfaatkan')}されています。",
+        "id": "Untuk menghilangkan kecelakaan lalu lintas, berbagai perangkat manajemen keamanan dimanfaatkan."
+    },
+    {
+        "is_header": False,
+        "jp": f"このうち、デジタル{kotoba('式', 'しき', 'sistem')}{kotoba('運行記録計', 'うんこうきろくけい', 'alat rekam perjalanan')}（デジタコ）は、{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('運行', 'うんこう', 'perjalanan')}にかかる{kotoba('速度', 'そくど', 'kecepatan')}や{kotoba('時間', 'じかん', 'waktu')}などを{kotoba('記録', 'きろく', 'merekam')}する{kotoba('装置', 'そうち', 'perangkat')}です。{kotoba('機種', 'きしゅ', 'model')}によっては、{kotoba('急制動', 'きゅうせいどう', 'pengereman mendadak')}、{kotoba('急発進', 'きゅうはっしん', 'akselerasi mendadak')}、{kotoba('燃料消費量', 'ねんりょうしょうひりょう', 'konsumsi bahan bakar')}などの{kotoba('走行', 'そうこう', 'berjalan/melaju')}データを{kotoba('記録', 'きろく', 'merekam')}することができます。また、{kotoba('記録', 'きろく', 'rekaman')}を{kotoba('詳しく', 'くわしく', 'secara detail')}{kotoba('分析', 'ぶんせき', 'analisis')}することで、{kotoba('安全運転', 'あんぜんうんてん', 'berkendara aman')}やエコドライブの{kotoba('指導', 'しどう', 'bimbingan')}が{kotoba('容易', 'ようい', 'mudah')}となります。",
+        "id": "Di antaranya, alat rekam perjalanan sistem digital (Digi-Tacho) adalah perangkat yang merekam kecepatan dan waktu terkait operasi kendaraan. Tergantung modelnya, perangkat ini dapat merekam data perjalanan seperti pengereman mendadak, akselerasi mendadak, dan konsumsi bahan bakar. Selain itu, dengan menganalisis rekaman secara rinci, bimbingan berkendara aman dan eco-drive menjadi lebih mudah dilakukan."
+    },
+    {
+        "is_header": False,
+        "jp": f"ドライブレコーダ（ドラレコ）は、{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}の{kotoba('映像', 'えいぞう', 'video/gambar')}を{kotoba('記録', 'きろく', 'merekam')}する{kotoba('装置', 'そうち', 'perangkat')}です。{kotoba('急', 'きゅう', 'mendadak')}ブレーキや{kotoba('衝突', 'しょうとつ', 'tabrakan')}などの{kotoba('衝撃', 'しょうげき', 'benturan')}を{kotoba('受ける', 'うける', 'menerima')}と、その{kotoba('前後', 'ぜんご', 'sebelum dan sesudah')}の{kotoba('映像', 'えいぞう', 'video/gambar')}を{kotoba('記録', 'きろく', 'merekam')}します。{kotoba('機種', 'きしゅ', 'model')}によっては{kotoba('映像', 'えいぞう', 'video/gambar')}をいつも{kotoba('記録', 'きろく', 'merekam')}しておくことも{kotoba('可能', 'かのう', 'mungkin')}です。",
+        "id": "Drive recorder (Dora-reko) adalah perangkat yang merekam video saat melaju. Saat menerima benturan seperti pengereman mendadak atau tabrakan, perangkat ini merekam video sebelum dan sesudahnya. Bergantung pada modelnya, mungkin juga untuk merekam video secara terus menerus."
     }
 ]
 # Data lanjutan materi (Bab 4.11 - 7.2)
