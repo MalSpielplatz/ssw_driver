@@ -98,7 +98,7 @@ if selected_bab.startswith("Bab 1"):
     st.caption("第１章 トラック運転者の基本")
     st.divider()
 
-    # Looping seluruh isi Bab 1 secara berurutan
+    # Looping seluruh isi Bab 1 secara berurutan menggunakan data_bab1 asli
     for i, item in enumerate(data_bab1):
         if item.get("is_header"):
             st.markdown(
