@@ -225,9 +225,913 @@ data_bab1 = [
         "jp": f"ドライブレコーダ（ドラレコ）は、{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}の{kotoba('映像', 'えいぞう', 'video/gambar')}を{kotoba('記録', 'きろく', 'merekam')}する{kotoba('装置', 'そうち', 'perangkat')}です。{kotoba('急', 'きゅう', 'mendadak')}ブレーキや{kotoba('衝突', 'しょうとつ', 'tabrakan')}などの{kotoba('衝撃', 'しょうげき', 'benturan')}を{kotoba('受ける', 'うける', 'menerima')}と、その{kotoba('前後', 'ぜんご', 'sebelum dan sesudah')}の{kotoba('映像', 'えいぞう', 'video/gambar')}を{kotoba('記録', 'きろく', 'merekam')}します。{kotoba('機種', 'きしゅ', 'model')}によっては{kotoba('映像', 'えいぞう', 'video/gambar')}をいつも{kotoba('記録', 'きろく', 'merekam')}しておくことも{kotoba('可能', 'かのう', 'mungkin')}です。",
         "id": "Drive recorder (Dora-reko) adalah perangkat yang merekam video saat melaju. Saat menerima benturan seperti pengereman mendadak atau tabrakan, perangkat ini merekam video sebelum dan sesudahnya. Bergantung pada modelnya, mungkin juga untuk merekam video secara terus menerus."
     }
-]
+    # Data Bab 3 & Bab 4 (4.1 - 4.4) Lengkap
+    # --- BAB 3 ---
+    {
+        "is_header": True,
+        "jp": f"３ トラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}としての{kotoba('心構え', 'こころがまえ', 'kesiapan mental/sikap')}",
+        "id": "3 Kesiapan Mental/Sikap sebagai Pengemudi Truk"
+    },
+    {
+        "is_header": True,
+        "jp": f"３．１ {kotoba('社内', 'しゃない', 'dalam perusahaan')}でのあいさつ",
+        "id": "3.1 Salam di Dalam Perusahaan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('人', 'ひと', 'orang')}との{kotoba('かかわり', '', 'hubungan')}は、あいさつからはじまります。{kotoba('社内', 'しゃない', 'dalam perusahaan')}での{kotoba('良い', 'よい', 'baik')}{kotoba('人間関係', 'にんげんかんけい', 'hubungan antar manusia')}をつくるためには、{kotoba('次', 'つぎ', 'berikut')}のことに{kotoba('気', 'き', 'perhatian')}をつけましょう。",
+        "id": "Hubungan dengan orang lain dimulai dari salam. Untuk membangun hubungan antar manusia yang baik di dalam perusahaan, mari perhatikan hal-hal berikut."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('笑顔', 'えがお', 'wajah tersenyum')}であいさつする",
+        "id": "・Memberi salam dengan wajah tersenyum"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('明るい', 'あかるい', 'terang/ceria')}{kotoba('声', 'こえ', 'suara')}であいさつする",
+        "id": "・Memberi salam dengan suara yang ceria"
+    },
+    {
+        "is_header": False,
+        "jp": f"・あいさつするときは、{kotoba('相手', 'あいて', 'lawan bicara')}の{kotoba('目', 'め', 'mata')}を{kotoba('見る', 'みる', 'melihat')}",
+        "id": "・Saat memberi salam, menatap mata lawan bicara"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('自分', 'じぶん', 'diri sendiri')}からあいさつをする",
+        "id": "・Memberi salam lebih dulu dari diri sendiri"
+    },
+    {
+        "is_header": True,
+        "jp": f"３．２ {kotoba('社外', 'しゃがい', 'luar perusahaan')}でのあいさつ",
+        "id": "3.2 Salam di Luar Perusahaan"
+    },
+    {
+        "is_header": False,
+        "jp": f"お{kotoba('客様', 'きゃくさま', 'pelanggan')}がトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}に{kotoba('望んで', 'のぞんで', 'mengharapkan')}いることとして、{kotoba('荷物', 'にもつ', 'barang')}の{kotoba('丁寧', 'ていねい', 'sopan/hati-hati')}な{kotoba('扱い', 'あつかい', 'penanganan')}や{kotoba('時間', 'じかん', 'waktu')}を{kotoba('守る', 'まもる', 'menjaga/menepati')}ことに{kotoba('加えて', 'くわえて', 'ditambah')}、{kotoba('服装', 'ふくそう', 'pakaian')}・{kotoba('身なり', 'みなり', 'penampilan')}、{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}や{kotoba('態度', 'たいど', 'sikap')}などのマナーがあげられます。",
+        "id": "Hal-hal yang diharapkan pelanggan dari pengemudi truk, selain penanganan barang yang hati-hati dan ketepatan waktu, juga mencakup etika seperti pakaian/penampilan, cara berbicara, dan sikap."
+    },
+    {
+        "is_header": False,
+        "jp": f"トラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}は{kotoba('会社', 'かいしゃ', 'perusahaan')}を{kotoba('代表', 'だいひょう', 'mewakili')}する{kotoba('顔', 'かお', 'wajah')}ですから、しっかりあいさつできなければ、{kotoba('会社', 'かいしゃ', 'perusahaan')}のイメージが{kotoba('悪く', 'わるく', 'buruk')}なります。このことをよく{kotoba('理解', 'りかい', 'pahami')}して、お{kotoba('客様', 'きゃくさま', 'pelanggan')}には{kotoba('笑顔', 'えがお', 'wajah tersenyum')}で{kotoba('明るく', 'あかるく', 'dengan ceria')}あいさつしましょう。",
+        "id": "Karena pengemudi truk adalah wajah yang mewakili perusahaan, jika tidak bisa memberikan salam dengan baik, citra perusahaan akan menjadi buruk. Pahami hal ini dengan baik, dan berikanlah salam kepada pelanggan dengan wajah tersenyum dan ceria."
+    },
+    {
+        "is_header": True,
+        "jp": f"３．３ {kotoba('身だしなみ', 'みだしなみ', 'penampilan diri')}",
+        "id": "3.3 Penampilan Diri"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('身だしなみ', 'みだしなみ', 'penampilan diri')}とは、{kotoba('人', 'ひと', 'orang')}に{kotoba('不快感', 'ふかいかん', 'rasa tidak nyaman')}を{kotoba('与えない', 'あたえない', 'tidak memberikan')}{kotoba('服装', 'ふくそう', 'pakaian')}やふるまいなどを{kotoba('いいます', '', 'disebut')}。{kotoba('身だしなみ', 'みだしなみ', 'penampilan diri')}には、その{kotoba('人', 'ひと', 'orang')}の{kotoba('人柄', 'ひとがら', 'kepribadian')}や{kotoba('仕事', 'しごと', 'pekerjaan')}に{kotoba('対する', 'たいする', 'terhadap')}{kotoba('心構え', 'こころがまえ', 'kesiapan mental/sikap')}などがあらわれます。",
+        "id": "Penampilan diri adalah pakaian atau perilaku yang tidak memberikan rasa tidak nyaman kepada orang lain. Penampilan diri menunjukkan kepribadian dan sikap seseorang terhadap pekerjaannya."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('身だしなみ', 'みだしなみ', 'penampilan diri')}が{kotoba('悪い', 'わるい', 'buruk')}と、お{kotoba('客様', 'きゃくさま', 'pelanggan')}に{kotoba('悪い', 'わるい', 'buruk')}{kotoba('印象', 'いんしょう', 'kesan')}を{kotoba('与えたり', 'あたえたり', 'memberikan')}、{kotoba('不安感', 'ふあんかん', 'rasa cemas')}を{kotoba('与えます', 'あたえます', 'memberikan')}。これは、トラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}{kotoba('本人', 'ほんにん', 'diri sendiri')}だけでなく、{kotoba('会社', 'かいしゃ', 'perusahaan')}としても{kotoba('大きな', 'おおきな', 'besar')}マイナスとなりますから、いつも{kotoba('清潔感', 'せいけつかん', 'kesan bersih')}のあるきちんとした{kotoba('身だしなみ', 'みだしなみ', 'penampilan diri')}を{kotoba('心掛けましょう', 'こころがけましょう', 'mari usahakan')}。",
+        "id": "Jika penampilan diri buruk, hal itu akan memberikan kesan buruk atau rasa cemas kepada pelanggan. Hal ini akan menjadi nilai minus yang besar, tidak hanya bagi pengemudi truk itu sendiri, tetapi juga bagi perusahaan. Oleh karena itu, mari selalu usahakan penampilan diri yang rapi dan memberikan kesan bersih."
+    },
+    {
+        "is_header": False,
+        "jp": f"また、きちんとしていた{kotoba('服装', 'ふくそう', 'pakaian')}が{kotoba('運転中', 'うんてんちゅう', 'saat mengemudi')}に{kotoba('乱れてくる', 'みだれてくる', 'menjadi berantakan')}ことがあります。{kotoba('休憩', 'きゅうけい', 'istirahat')}のときなどには、{kotoba('服装', 'ふくそう', 'pakaian')}が{kotoba('乱れて', 'みだれて', 'berantakan')}いないか、{kotoba('名札', 'なふだ', 'papan nama')}は{kotoba('正しく', 'ただしく', 'dengan benar')}つけているか、{kotoba('手', 'て', 'tangan')}や{kotoba('爪', 'つめ', 'kuku')}が{kotoba('汚れて', 'よごれて', 'kotor')}いないかなどをチェックしましょう。",
+        "id": "Selain itu, pakaian yang tadinya rapi bisa menjadi berantakan saat mengemudi. Pada saat istirahat dan lain-lain, mari periksa apakah pakaian tidak berantakan, apakah papan nama terpasang dengan benar, dan apakah tangan atau kuku tidak kotor."
+    },
+    {
+        "is_header": True,
+        "jp": f"３．４ {kotoba('職場', 'しょくば', 'tempat kerja')}での{kotoba('心構え', 'こころがまえ', 'kesiapan mental/sikap')}",
+        "id": "3.4 Sikap Mental di Tempat Kerja"
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('協調性', 'きょうちょうせい', 'sikap kooperatif')}をもつ",
+        "id": "◆ Memiliki Sikap Kooperatif"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('会社', 'かいしゃ', 'perusahaan')}は{kotoba('人', 'ひと', 'orang')}と{kotoba('人', 'ひと', 'orang')}の{kotoba('集まり', 'あつまり', 'kumpulan')}ですから、そこで{kotoba('働いている', 'はたらいている', 'bekerja')}すべての{kotoba('人', 'ひと', 'orang')}が{kotoba('協調性', 'きょうちょうせい', 'sikap kooperatif')}をもつことが{kotoba('大切', 'たいせつ', 'penting')}です。{kotoba('運転', 'うんてん', 'mengemudi')}の{kotoba('仕事', 'しごと', 'pekerjaan')}はトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}がおこないますが、{kotoba('会社全体', 'かいしゃぜんたい', 'perusahaan keseluruhan')}の{kotoba('仕事', 'しごと', 'pekerjaan')}は、{kotoba('全員', 'ぜんいん', 'semua orang')}がおこなうものであり、チームワークで{kotoba('進めていく', 'すすめていく', 'menjalankan')}ものです。{kotoba('会社', 'かいしゃ', 'perusahaan')}の{kotoba('中', 'なか', 'dalam')}での{kotoba('自分', 'じぶん', 'sendiri')}の{kotoba('役割', 'やくわり', 'peran')}を{kotoba('自覚', 'じかく', 'sadari')}し、みんなと{kotoba('協調', 'きょうちょう', 'bekerja sama')}して{kotoba('仕事', 'しごと', 'pekerjaan')}を{kotoba('進め', 'すすめ', 'memajukan')}、{kotoba('責任', 'せきにん', 'tanggung jawab')}を{kotoba('果たしていく', 'はたしていく', 'menjalankan')}ことで、{kotoba('会社', 'かいしゃ', 'perusahaan')}の{kotoba('発展', 'はってん', 'perkembangan')}や{kotoba('成長', 'せいちょう', 'pertumbuhan')}、{kotoba('従業員', 'じゅうぎょういん', 'karyawan')}の{kotoba('幸福', 'こうふく', 'kebahagiaan')}が{kotoba('生まれる', 'うまれる', 'lahir')}のです。",
+        "id": "Karena perusahaan adalah kumpulan orang-orang, sangatlah penting bagi semua orang yang bekerja di sana untuk memiliki sikap kooperatif. Pekerjaan mengemudi memang dilakukan oleh pengemudi truk, tetapi pekerjaan perusahaan secara keseluruhan dilakukan oleh semua orang dan dijalankan melalui kerja sama tim. Dengan menyadari peran diri sendiri di dalam perusahaan, memajukan pekerjaan dengan bekerja sama bersama yang lain, dan memenuhi tanggung jawab, akan melahirkan perkembangan dan pertumbuhan perusahaan, serta kebahagiaan karyawan."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆コミュニケーションをとる",
+        "id": "◆ Menjalin Komunikasi"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('運転', 'うんてん', 'mengemudi')}という{kotoba('仕事', 'しごと', 'pekerjaan')}は、{kotoba('会社', 'かいしゃ', 'perusahaan')}の{kotoba('外', 'そと', 'luar')}でおこなう{kotoba('単独', 'たんどく', 'sendiri')}{kotoba('の', '', 'partikel')} {kotoba('仕事', 'しごと', 'pekerjaan')}です。だからこそ、{kotoba('点呼時', 'てんこじ', 'saat absen')}など{kotoba('会社', 'かいしゃ', 'perusahaan')}にいる{kotoba('数少ない', 'かずすくない', 'sedikit')}{kotoba('時間', 'じかん', 'waktu')}に、{kotoba('管理者', 'かんりしゃ', 'pengelola/manajer')}や{kotoba('他', 'ほか', 'lain')}のトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}とのコミュニケーションをとることが{kotoba('大切', 'たいせつ', 'penting')}です。コミュニケーションをとることで、{kotoba('人間関係', 'にんげんかんけい', 'hubungan antar manusia')}がよくなれば、{kotoba('相談', 'そうだん', 'konsultasi')}ごとも{kotoba('気軽', 'きがる', 'tanpa sungkan')}に{kotoba('行える', 'おこなえる', 'bisa dilakukan')}ようになり、ストレスも{kotoba('軽く', 'かるく', 'ringan')}なって{kotoba('仕事', 'しごと', 'pekerjaan')}の{kotoba('能率', 'のうりつ', 'efisiensi')}もアップします。",
+        "id": "Pekerjaan mengemudi adalah pekerjaan yang dilakukan sendiri di luar perusahaan. Oleh karena itulah, sangat penting untuk menjalin komunikasi dengan manajer dan pengemudi truk lain pada sedikit waktu saat Anda berada di perusahaan, seperti saat absen. Jika hubungan antar manusia membaik karena menjalin komunikasi, konsultasi pun akan dapat dilakukan tanpa sungkan, stres menjadi ringan, dan efisiensi kerja pun akan meningkat."
+    },
+    {
+        "is_header": True,
+        "jp": f"３．５ {kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}の{kotoba('基本', 'きほん', 'dasar')}",
+        "id": "3.5 Dasar Cara Berbicara"
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}は{kotoba('人間関係', 'にんげんかんけい', 'hubungan antar manusia')}の{kotoba('基本', 'きほん', 'dasar')}",
+        "id": "・Cara Berbicara adalah Dasar Hubungan Antar Manusia"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}は{kotoba('人間関係', 'にんげんかんけい', 'hubungan antar manusia')}の{kotoba('基本', 'きほん', 'dasar')}です。{kotoba('話', 'はなし', 'bicara')}をする{kotoba('相手', 'あいて', 'lawan bicara')}に{kotoba('応じて', 'おうじて', 'sesuai')}{kotoba('正しい', 'ただしい', 'benar')}{kotoba('使い方', 'つかいかた', 'cara penggunaan')}ができると{kotoba('人間関係', 'にんげんかんけい', 'hubungan antar manusia')}も{kotoba('良好', 'りょうこう', 'baik')}になります。",
+        "id": "Cara berbicara adalah dasar dari hubungan antar manusia. Jika Anda dapat menggunakan cara berbicara yang benar dan sesuai dengan lawan bicara, hubungan antar manusia pun akan menjadi baik."
+    },
+    {
+        "is_header": False,
+        "jp": f"また、{kotoba('相手', 'あいて', 'lawan bicara')}に{kotoba('対して', 'たいして', 'terhadap')}{kotoba('正しく', 'ただしく', 'dengan benar')}{kotoba('伝える', 'つたえる', 'menyampaikan')}ことが{kotoba('大切', 'たいせつ', 'penting')}です。{kotoba('早く', 'はやく', 'cepat')}{kotoba('話したり', 'はなしたり', 'berbicara')}、{kotoba('声', 'こえ', 'suara')}が{kotoba('小さい', 'ちいさい', 'kecil')}、{kotoba('言葉', 'ことば', 'kata-kata')}の{kotoba('最後', 'さいご', 'akhir')}がはっきりしないなどは、{kotoba('相手', 'あいて', 'lawan bicara')}に{kotoba('正しく', 'ただしく', 'dengan benar')}{kotoba('伝わらない', 'つたわらない', 'tidak tersampaikan')}{kotoba('おそれ', '', 'kekhawatiran')}がありますから、{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "Selain itu, penting untuk menyampaikannya kepada lawan bicara dengan benar. Berbicara terlalu cepat, suara kecil, atau akhir kata yang tidak jelas dikhawatirkan dapat membuat pesan tidak tersampaikan dengan benar kepada lawan bicara, jadi harap berhati-hati."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆お{kotoba('客様', 'きゃくさま', 'pelanggan')}に{kotoba('対する', 'たいする', 'terhadap')}{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}",
+        "id": "◆ Cara Berbicara Terhadap Pelanggan"
+    },
+    {
+        "is_header": False,
+        "jp": f"お{kotoba('客様', 'きゃくさま', 'pelanggan')}に{kotoba('好感', 'こうかん', 'kesan baik')}をもたれる{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}は、{kotoba('明るさ', 'あかるさ', 'kecerian')}を{kotoba('第一', 'だいいち', 'pertama/utama')}に、{kotoba('誠実', 'せいじつ', 'tulus')}{kotoba('な', '', 'partikel')} {kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}をするということです。",
+        "id": "Cara berbicara yang memberikan kesan baik kepada pelanggan, pertama-tama adalah keceriaan, yakni berbicara dengan tulus."
+    },
+    {
+        "is_header": False,
+        "jp": f"それにより、{kotoba('多少', 'たしょう', 'sedikit')}{kotoba('言葉づかい', 'ことばづかい', 'cara bicara')}を{kotoba('間違えた', 'まちがえた', 'salah')}としても、お{kotoba('客様', 'きゃくさま', 'pelanggan')}に{kotoba('理解', 'りかい', 'pahami')}されやすくなります。そのためには、とくに{kotoba('次', 'つぎ', 'berikut')}の{kotoba('点', 'てん', 'poin')}を{kotoba('心掛けましょう', 'こころがけましょう', 'mari usahakan')}。",
+        "id": "Dengan demikian, meskipun ada sedikit kesalahan dalam cara berbicara, pelanggan akan lebih mudah memaklumi/memahaminya. Oleh karena itu, mari usahakan poin-poin berikut khususnya:"
+    },
+    {
+        "is_header": False,
+        "jp": "・明るく話す",
+        "id": "・Berbicara dengan ceria"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('相手', 'あいて', 'lawan bicara')}の{kotoba('顔', 'かお', 'wajah')}を{kotoba('見て', 'みて', 'melihat')}{kotoba('話す', 'はなす', 'berbicara')}",
+        "id": "・Berbicara sambil menatap wajah lawan bicara"
+    },
+    {
+        "is_header": False,
+        "jp": f"・はっきり{kotoba('話す', 'はなす', 'berbicara')}",
+        "id": "・Berbicara dengan jelas"
+    },
+    {
+        "is_header": False,
+        "jp": f"・あいまいな{kotoba('表現', 'ひょうげん', 'ungkapan')}を{kotoba('使わない', 'つかわない', 'tidak menggunakan')}",
+        "id": "・Tidak menggunakan ungkapan yang ambigu (tidak jelas)"
+    },
+    {
+        "is_header": True,
+        "jp": f"３．６ {kotoba('車', 'くるま', 'kendaraan')}の{kotoba('整理整頓', 'せいりせいとん', 'beres-beres')}",
+        "id": "3.6 Beres-Beres Kendaraan"
+    },
+    {
+        "is_header": True,
+        "jp": f"◆4Sの{kotoba('大切さ', 'たいせつさ', 'pentingnya')}",
+        "id": "◆ Pentingnya 4S"
+    },
+    {
+        "is_header": False,
+        "jp": f"4Sとは「{kotoba('整理', 'せいり', 'Seiri')}」「{kotoba('整頓', 'せいとん', 'Seiton')}」「{kotoba('清掃', 'せいそう', 'Seisou')}」「{kotoba('清潔', 'せいけつ', 'Seiketsu')}」のそれぞれの{kotoba('頭文字', 'かしらもじ', 'huruf awal')}の「S」をとったものです。4Sを{kotoba('実行', 'じっこう', 'melaksanakan')}することは、{kotoba('脇見運転', 'わきみうんてん', 'mengemudi sambil menoleh')}の{kotoba('防止', 'ぼうし', 'pencegahan')}や{kotoba('視界', 'しかい', 'jarak pandang')}の{kotoba('保つ', 'たもつ', 'menjaga')}ことで、{kotoba('事故防止', 'じこぼうし', 'pencegahan kecelakaan')}にもつながります。",
+        "id": "4S adalah singkatan dari huruf awal \"S\" pada kata \"Seiri (Ringkas)\", \"Seiton (Rapi)\", \"Seisou (Resik)\", dan \"Seiketsu (Rawat)\". Melaksanakan 4S berarti mencegah mengemudi sambil menoleh ke arah lain dan menjaga jarak pandang, yang juga berujung pada pencegahan kecelakaan."
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('整理', 'せいり', 'Seiri (Ringkas)')}",
+        "id": "▶ Seiri (Ringkas)"
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('整理', 'せいり', 'seiri')}」とは、「{kotoba('乱れた', 'みだれた', 'berantakan')}{kotoba('状態', 'じょうたい', 'kondisi')}にあるものを{kotoba('整える', 'ととのえる', 'merapikan')}ことであり、{kotoba('必要な', 'ひつような', 'yang dibutuhkan')}ものとそうでないものを{kotoba('区別', 'くべつ', 'membedakan')}し、{kotoba('必要ない', 'ひつようない', 'tidak diperlukan')}ものを{kotoba('処分', 'しょぶん', 'membuang')}すること」です。",
+        "id": "\"Seiri\" berarti \"merapikan kondisi yang berantakan, membedakan antara barang yang dibutuhkan dan yang tidak, serta membuang barang yang tidak diperlukan\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"たとえば、{kotoba('助手席側', 'じょしゅせきがわ', 'sisi kursi penumpang')}のドアの{kotoba('安全窓付近', 'あんぜんまどふきん', 'sekitar jendela aman')}に{kotoba('伝票', 'でんぴょう', 'slip')}や{kotoba('地図', 'ちず', 'peta')}、ヘルメット、ダンボール{kotoba('箱', 'はこ', 'kotak')}などを{kotoba('置いている', 'おいている', 'meletakkan')}と、{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}などを{kotoba('見落とす', 'みおとす', 'terlewatkan')}{kotoba('おそれ', '', 'kekhawatiran')}があります。このようなことが{kotoba('起こらない', 'おこらない', 'tidak terjadi')}ようにいらない{kotoba('物', 'もの', 'barang')}を{kotoba('片付けて', 'かたづけて', 'membereskan')}おくようにしましょう。",
+        "id": "Misalnya, jika Anda meletakkan slip, peta, helm, kardus, dan lain-lain di sekitar jendela keselamatan pintu sisi kursi penumpang, dikhawatirkan dapat membuat Anda tidak melihat pejalan kaki. Agar hal seperti ini tidak terjadi, bereskanlah barang-barang yang tidak diperlukan."
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('整頓', 'せいとん', 'Seiton (Rapi)')}",
+        "id": "▶ Seiton (Rapi)"
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('整頓', 'せいとん', 'seiton')}」は「{kotoba('必要な', 'ひつような', 'yang dibutuhkan')}ものを{kotoba('使いやすい', 'つかいやすい', 'mudah digunakan')}{kotoba('場所', 'ばしょ', 'tempat')}にきちんと{kotoba('置く', 'おく', 'meletakkan')}こと」です。",
+        "id": "\"Seiton\" berarti \"meletakkan barang-barang yang dibutuhkan dengan rapi di tempat yang mudah digunakan\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('整頓', 'せいとん', 'seiton')}するときは、{kotoba('運転', 'うんてん', 'mengemudi')}の{kotoba('妨げ', 'さまたげ', 'hambatan')}にならない{kotoba('置き場所', 'おきばしょ', 'tempat meletakkan')}や{kotoba('置き方', 'おきかた', 'cara meletakkan')}をよく{kotoba('考えましょう', 'かんがえましょう', 'mari pikirkan')}。たとえば、{kotoba('書類', 'しょるい', 'dokumen')}などをダッシュボードに{kotoba('置く', 'おく', 'meletakkan')}と、{kotoba('運転中', 'うんてんちゅう', 'saat mengemudi')}に{kotoba('書類', 'しょるい', 'dokumen')}がフロントガラスに{kotoba('映って', 'うつって', 'terpantul')}、{kotoba('視界', 'しかい', 'jarak pandang')}を{kotoba('悪く', 'わるく', 'buruk')}させます。また、{kotoba('書類', 'しょるい', 'dokumen')}などに{kotoba('気', 'き', 'perhatian')}をとられ、{kotoba('脇見運転', 'わきみうんてん', 'mengemudi sambil menoleh')}になる{kotoba('おそれ', '', 'kekhawatiran')}もありますから{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "Saat merapikan, pikirkan baik-baik tempat dan cara meletakkan barang agar tidak mengganggu saat mengemudi. Misalnya, jika Anda meletakkan dokumen di dasbor, dokumen tersebut akan terpantul di kaca depan saat mengemudi dan memperburuk jarak pandang. Selain itu, perhatikan karena dikhawatirkan perhatian Anda akan teralihkan oleh dokumen sehingga mengemudi sambil menoleh."
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('清掃', 'せいそう', 'Seisou (Resik)')}",
+        "id": "▶ Seisou (Resik)"
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('清掃', 'せいそう', 'seisou')}」とは、「{kotoba('車内', 'しゃない', 'dalam mobil')}をきれいにして、{kotoba('使いやすい', 'つかいやすい', 'mudah digunakan')}ようにしておくこと」です。",
+        "id": "\"Seisou\" berarti \"membersihkan bagian dalam kendaraan dan membuatnya mudah digunakan\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"たとえば、{kotoba('空缶', 'あきかん', 'kaleng kosong')}が{kotoba('床', 'ゆか', 'lantai')}に{kotoba('落ちていた', 'おちていた', 'jatuh')}{kotoba('場合', 'ばあい', 'kasus')}、それがブレーキペダルに{kotoba('はまって', '', 'tersangkut')}しまうと、ブレーキが{kotoba('踏めず', 'ふめず', 'tidak bisa diinjak')}、{kotoba('重大な', 'じゅうだいな', 'fatal')}{kotoba('事故', 'じこ', 'kecelakaan')}につながることもあります。また、{kotoba('出発', 'しゅっぱつ', 'keberangkatan')}するときに{kotoba('車内', 'しゃない', 'dalam mobil')}が{kotoba('散らかっている', 'ちらかっている', 'berantakan')}と、それを{kotoba('片付ける', 'かたづける', 'membereskan')}のにも{kotoba('手間', 'てま', 'repot/waktu')}がかかり、{kotoba('時間', 'じかん', 'waktu')}の{kotoba('無駄づかい', 'むだづかい', 'buang-buang')}になります。{kotoba('運転', 'うんてん', 'mengemudi')}の{kotoba('仕事', 'しごと', 'pekerjaan')}が{kotoba('終わった', 'おわった', 'selesai')}ときは、{kotoba('車内', 'しゃない', 'dalam mobil')}を{kotoba('清掃', 'せいそう', 'membersihkan')}する{kotoba('習慣', 'しゅうかん', 'kebiasaan')}をつけておきましょう。",
+        "id": "Misalnya, jika kaleng kosong jatuh di lantai dan tersangkut di pedal rem, rem tidak akan bisa diinjak dan dapat menyebabkan kecelakaan fatal. Selain itu, jika bagian dalam kendaraan berantakan saat akan berangkat, akan memakan waktu untuk membereskannya sehingga membuang-buang waktu. Biasakanlah untuk membersihkan kendaraan saat pekerjaan mengemudi telah selesai."
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('清潔', 'せいけつ', 'Seiketsu (Rawat)')}",
+        "id": "▶ Seiketsu (Rawat)"
+    },
+    {
+        "is_header": False,
+        "jp": f"「{kotoba('清潔', 'せいけつ', 'seiketsu')}」とは、「{kotoba('整理', 'せいり', 'seiri')}、{kotoba('整頓', 'せいとん', 'seiton')}、{kotoba('清掃', 'せいそう', 'seisou')}」を{kotoba('保つ', 'たもつ', 'menjaga')}{kotoba('活動', 'かつどう', 'kegiatan')}のことです。",
+        "id": "\"Seiketsu\" adalah kegiatan untuk menjaga \"seiri, seiton, seisou\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('整理', 'せいり', 'seiri')}・{kotoba('整頓', 'せいとん', 'seiton')}・{kotoba('清掃', 'せいそう', 'seisou')}がおこなわれていないと、{kotoba('車', 'くるま', 'kendaraan')}を{kotoba('大切', 'たいせつ', 'menghargai/menyayangi')}にする{kotoba('気持ち', 'きもち', 'perasaan')}が{kotoba('薄れて', 'うすれて', 'memudar')}、{kotoba('運転', 'うんてん', 'mengemudi')}も{kotoba('乱暴', 'らんぼう', 'kasar')}になりがちです。",
+        "id": "Jika seiri, seiton, dan seisou tidak dilakukan, rasa menyayangi kendaraan akan memudar, dan cara mengemudi pun cenderung menjadi kasar."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('整理', 'せいり', 'seiri')}・{kotoba('整頓', 'せいとん', 'seiton')}・{kotoba('清掃', 'せいそう', 'seisou')}が{kotoba('行われて', 'おこなわれて', 'dilakukan')}いれば、プロ{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}としての{kotoba('意識', 'いしき', 'kesadaran')}や、{kotoba('走る', 'はしる', 'berjalan')}{kotoba('広告塔', 'こうこくとう', 'papan iklan')}（{kotoba('会社', 'かいしゃ', 'perusahaan')}の{kotoba('名前', 'なまえ', 'nama')}が{kotoba('書かれた', 'かかれた', 'tertulis')}トラックは、{kotoba('走り', 'はしり', 'berjalan')}ながら{kotoba('会社', 'かいしゃ', 'perusahaan')}を{kotoba('宣伝', 'せんでん', 'mengiklankan')}する{kotoba('広告', 'こうこく', 'iklan')}の{kotoba('役割', 'やくわり', 'peran')}を{kotoba('はたして', '', 'menjalankan')}います。）としての{kotoba('意識', 'いしき', 'kesadaran')}も{kotoba('強まります', 'つよまります', 'menguat')}から、マナーの{kotoba('良い', 'よい', 'baik')}{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('運転', 'うんてん', 'mengemudi')}につながります。",
+        "id": "Jika seiri, seiton, dan seisou dilakukan dengan baik, kesadaran sebagai pengemudi profesional dan kesadaran sebagai papan iklan berjalan (Truk dengan nama perusahaan yang tertulis berfungsi sebagai iklan berjalan untuk mempromosikan perusahaan) akan menguat, sehingga akan berujung pada cara mengemudi yang aman dan beretika baik."
+    },
+    {
+        "is_header": True,
+        "jp": f"３．７ トラックを{kotoba('運転', 'うんてん', 'mengemudi')}する{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}のみなさんへ",
+        "id": "3.7 Untuk Anda Sekalian Pengemudi yang Mengemudikan Truk"
+    },
+    {
+        "is_header": True,
+        "jp": f"◆トラックの{kotoba('特性', 'とくせい', 'karakteristik')}に{kotoba('応じた', 'おうじた', 'sesuai')}{kotoba('運転技能', 'うんてんぎのう', 'keterampilan mengemudi')}の{kotoba('習得', 'しゅうとく', 'penguasaan')}",
+        "id": "◆ Penguasaan Keterampilan Mengemudi yang Sesuai dengan Karakteristik Truk"
+    },
+    {
+        "is_header": False,
+        "jp": f"トラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}の{kotoba('仕事', 'しごと', 'pekerjaan')}の{kotoba('大半', 'たいはん', 'sebagian besar')}は{kotoba('運転', 'うんてん', 'mengemudi')}ですから、トラックを{kotoba('運転', 'うんてん', 'mengemudi')}する{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}のみなさんは、しっかりと{kotoba('運転技能', 'うんてんぎのう', 'keterampilan mengemudi')}を{kotoba('学ぶ', 'まなぶ', 'belajar')}{kotoba('必要', 'ひつよう', 'perlu')}があります。",
+        "id": "Karena sebagian besar pekerjaan pengemudi truk adalah mengemudi, Anda sekalian yang mengemudikan truk perlu belajar dan menguasai keterampilan mengemudi dengan baik."
+    },
+    {
+        "is_header": False,
+        "jp": f"とくにトラックは、{kotoba('他', 'ほか', 'lain')}の{kotoba('車', 'くるま', 'kendaraan')}とは{kotoba('違う', 'ちがう', 'berbeda')}{kotoba('特性', 'とくせい', 'karakteristik')}がありますから、それらをよく{kotoba('理解', 'りかい', 'pahami')}して、トラックの{kotoba('特性', 'とくせい', 'karakteristik')}に{kotoba('応じた', 'おうじた', 'sesuai')}{kotoba('運転技能', 'うんてんぎのう', 'keterampilan mengemudi')}を{kotoba('身につける', 'みにつける', 'menguasai/mempelajari')}{kotoba('必要', 'ひつよう', 'perlu')}があります。",
+        "id": "Khususnya, truk memiliki karakteristik yang berbeda dari kendaraan lain. Karena itu, Anda perlu memahaminya dengan baik dan menguasai keterampilan mengemudi yang sesuai dengan karakteristik truk tersebut."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('慣れた', 'なれた', 'terbiasa')}{kotoba('頃', 'ころ', 'saat')}に{kotoba('落とし穴', 'おとしあな', 'jebakan')}がある",
+        "id": "・Ada Jebakan Saat Mulai Terbiasa"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('運転', 'うんてん', 'mengemudi')}に{kotoba('慣れない', 'なれない', 'belum terbiasa')}{kotoba('とき', '', 'saat')}は{kotoba('緊張感', 'きんちょうかん', 'rasa tegang')}を{kotoba('持って', 'もって', 'memiliki')}{kotoba('運転', 'うんてん', 'mengemudi')}していても、{kotoba('慣れてくる', 'なれてくる', 'mulai terbiasa')}と{kotoba('緊張感', 'きんちょうかん', 'rasa tegang')}が{kotoba('薄れ', 'うすれ', 'memudar')}、{kotoba('油断', 'ゆだん', 'kecerobohan')}が{kotoba('生まれやすくなります', 'うまれやすくなります', 'mudah muncul')}。{kotoba('そのため', '', 'oleh karena itu')}{kotoba('安全', 'あんぜん', 'aman')}のための{kotoba('基本動作', 'きほんどうさ', 'gerakan dasar')}をしなかったり、やるべきことをやらなくなったりします。それが{kotoba('事故', 'じこ', 'kecelakaan')}につながります。",
+        "id": "Saat belum terbiasa mengemudi, Anda mungkin mengemudi dengan penuh rasa tegang. Namun, saat mulai terbiasa, rasa tegang itu akan memudar, dan kecerobohan pun mudah muncul. Oleh karena itu, Anda mungkin tidak melakukan gerakan dasar untuk keselamatan, atau tidak melakukan apa yang seharusnya dilakukan. Hal itulah yang berujung pada kecelakaan."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('運転', 'うんてん', 'mengemudi')}を{kotoba('始めた', 'はじめた', 'memulai')}{kotoba('頃', 'ころ', 'saat')}{kotoba('の', '', 'partikel')} {kotoba('緊張感', 'きんちょうかん', 'rasa tegang')}や{kotoba('慎重さ', 'しんちょうさ', 'kehati-hatian')}を{kotoba('忘れない', 'わすれない', 'jangan lupa')}ようにしましょう。",
+        "id": "Janganlah melupakan rasa tegang dan kehati-hatian seperti saat Anda baru mulai mengemudi."
+    },
+
+    # --- BAB 4 ---
+    {
+        "is_header": True,
+        "jp": f"４ {kotoba('安全運転', 'あんぜんうんてん', 'berkendara aman')}の{kotoba('基本', 'きほん', 'dasar')}",
+        "id": "4 Dasar Berkendara Aman"
+    },
+    {
+        "is_header": True,
+        "jp": f"４．１ {kotoba('日常', 'にちじょう', 'sehari-hari')}・{kotoba('休日', 'きゅうじつ', 'hari libur')}の{kotoba('健康管理', 'けんこうかんり', 'manajemen kesehatan')}",
+        "id": "4.1 Manajemen Kesehatan Sehari-Hari dan Hari Libur"
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('健康管理', 'けんこうかんり', 'manajemen kesehatan')}の{kotoba('大切さ', 'たいせつさ', 'pentingnya')}",
+        "id": "▶ Pentingnya Manajemen Kesehatan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('毎日', 'まいにち', 'setiap hari')}{kotoba('運転', 'うんてん', 'mengemudi')}の{kotoba('仕事', 'しごと', 'pekerjaan')}をするトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}にとって、{kotoba('心身', 'しんしん', 'pikiran dan tubuh')}をいつも{kotoba('良い', 'よい', 'baik')}{kotoba('状態', 'じょうたい', 'kondisi')}に{kotoba('保つ', 'たもつ', 'menjaga')}ことが{kotoba('大切', 'たいせつ', 'penting')}です。{kotoba('運転', 'うんてん', 'mengemudi')}という{kotoba('作業', 'さぎょう', 'tugas/kerja')}は、{kotoba('次', 'つぎ', 'berikut')}のような{kotoba('特徴', 'とくちょう', 'ciri-ciri')}があるからです。",
+        "id": "Bagi pengemudi truk yang setiap hari mengemudi, sangatlah penting untuk selalu menjaga tubuh dan pikiran dalam kondisi yang baik. Sebab, tugas mengemudi memiliki ciri-ciri sebagai berikut:"
+    },
+    {
+        "is_header": False,
+        "jp": f"①ひとりで{kotoba('行わなければなりません', 'おこなわなければなりません', 'harus melakukan')}。",
+        "id": "① Harus dilakukan sendirian."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('長い', 'ながい', 'panjang')}{kotoba('時間', 'じかん', 'waktu')}{kotoba('行わなければなりません', 'おこなわなければなりません', 'harus melakukan')}。",
+        "id": "② Harus dilakukan dalam waktu yang lama."
+    },
+    {
+        "is_header": False,
+        "jp": f"③{kotoba('とっさの', '', 'tiba-tiba/seketika')}（{kotoba('非常', 'ひじょう', 'sangat')}に{kotoba('短い', 'みじかい', 'pendek')}{kotoba('時間', 'じかん', 'waktu')}での）{kotoba('判断', 'はんだん', 'keputusan')}が{kotoba('必要', 'ひつよう', 'perlu')}となるときや、{kotoba('緊急', 'きんきゅう', 'darurat')}のときなどに、{kotoba('冷静', 'れいせい', 'tenang')}で{kotoba('適切', 'てきせつ', 'tepat')}な{kotoba('判断', 'はんだん', 'keputusan')}をすることが{kotoba('必要', 'ひつよう', 'perlu')}となります。",
+        "id": "③ Saat diperlukan keputusan mendadak/seketika (dalam waktu yang sangat singkat) atau saat darurat, diperlukan pengambilan keputusan yang tenang dan tepat."
+    },
+    {
+        "is_header": False,
+        "jp": f"④{kotoba('運転中', 'うんてんちゅう', 'saat mengemudi')}は{kotoba('運転席', 'うんてんせき', 'kursi pengemudi')}に{kotoba('座り続け', 'すわりつづけ', 'terus duduk')}、{kotoba('動く', 'うごく', 'bergerak')}ことが{kotoba('少なく', 'すくなく', 'sedikit')}、{kotoba('姿勢', 'しせい', 'postur/posisi')}を{kotoba('変える', 'かえる', 'mengubah')}ことができない{kotoba('状態', 'じょうたい', 'kondisi')}が{kotoba('続きます', 'つづきます', 'berlanjut')}。",
+        "id": "④ Saat mengemudi, Anda harus terus duduk di kursi pengemudi, jarang bergerak, dan tidak dapat mengubah postur tubuh dalam keadaan yang berlanjut."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('体調', 'たいちょう', 'kondisi tubuh')}の{kotoba('悪い', 'わるい', 'buruk')}{kotoba('状態', 'じょうたい', 'kondisi')}で{kotoba('運転', 'うんてん', 'mengemudi')}の{kotoba('仕事', 'しごと', 'pekerjaan')}につけば、これらの{kotoba('作業', 'さぎょう', 'tugas/kerja')}を{kotoba('適切', 'てきせつ', 'tepat')}におこなうことができず、{kotoba('事故', 'じこ', 'kecelakaan')}に{kotoba('つながります', '', 'berujung pada')}。{kotoba('健康', 'けんこう', 'sehat')}を{kotoba('保つ', 'たもつ', 'menjaga')}ことは{kotoba('安全運転', 'あんぜんうんてん', 'berkendara aman')}に{kotoba('欠かせない', 'かかせない', 'tidak terpisahkan')}{kotoba('条件', 'じょうけん', 'syarat')}です。",
+        "id": "Jika Anda melakukan pekerjaan mengemudi dalam kondisi tubuh yang buruk, tugas-tugas ini tidak dapat dilakukan dengan tepat, sehingga berujung pada kecelakaan. Menjaga kesehatan adalah syarat mutlak/tidak terpisahkan untuk berkendara dengan aman."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('日常生活', 'にちじょうせいかつ', 'kehidupan sehari-hari')}や{kotoba('休日', 'きゅうじつ', 'hari libur')}の{kotoba('注意点', 'ちゅういてん', 'poin perhatian')}",
+        "id": "◆ Poin Perhatian dalam Kehidupan Sehari-hari dan Hari Libur"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('深夜', 'しんや', 'tengah malam')}や{kotoba('早朝', 'そうちょう', 'dini hari')}の{kotoba('出発', 'しゅっぱつ', 'keberangkatan')}、{kotoba('宿泊', 'しゅくはく', 'menginap')}を{kotoba('伴う', 'ともなう', 'disertai')}{kotoba('運行', 'うんこう', 'perjalanan')}などトラック{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}は{kotoba('生活', 'せいかつ', 'kehidupan')}が{kotoba('不規則', 'ふきそく', 'tidak teratur')}になりがちですので、{kotoba('日常生活', 'にちじょうせいかつ', 'kehidupan sehari-hari')}においては、とくに{kotoba('次', 'つぎ', 'berikut')}のことを{kotoba('心掛けましょう', 'こころがけましょう', 'mari usahakan')}。",
+        "id": "Pengemudi truk seringkali memiliki ritme hidup yang tidak teratur, seperti berangkat larut malam atau dini hari, serta perjalanan yang mengharuskan menginap. Oleh karena itu, dalam kehidupan sehari-hari, usahakan hal-hal berikut:"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('十分', 'じゅうぶん', 'cukup')}な{kotoba('睡眠', 'すいみん', 'tidur')}をとる。",
+        "id": "① Tidur yang cukup."
+    },
+    {
+        "is_header": False,
+        "jp": f"②バランスの{kotoba('良い', 'よい', 'baik')}{kotoba('食事', 'しょくじ', 'makan')}をとる。",
+        "id": "② Makan dengan gizi seimbang."
+    },
+    {
+        "is_header": False,
+        "jp": f"③やすらぎの{kotoba('場', 'ば', 'tempat')}を{kotoba('持つ', 'もつ', 'memiliki')}。",
+        "id": "③ Memiliki tempat/waktu untuk relaksasi."
+    },
+    {
+        "is_header": False,
+        "jp": f"④{kotoba('翌日', 'よくじつ', 'keesokan hari')}に{kotoba('疲れ', 'つかれ', 'lelah')}が{kotoba('残らない', 'のこらない', 'tidak tersisa')}くらいの{kotoba('運動', 'うんどう', 'olahraga')}をする。",
+        "id": "④ Melakukan olahraga ringan yang tidak menyisakan kelelahan pada keesokan harinya."
+    },
+    {
+        "is_header": False,
+        "jp": f"⑤{kotoba('気分', 'きぶん', 'perasaan')}の{kotoba('転換', 'てんかん', 'perubahan/penyegaran')}ができる{kotoba('趣味', 'しゅみ', 'hobi')}を{kotoba('持つ', 'もつ', 'memiliki')}。",
+        "id": "⑤ Memiliki hobi untuk menyegarkan pikiran."
+    },
+    {
+        "is_header": False,
+        "jp": f"⑥{kotoba('気持ち', 'きもち', 'perasaan')}にゆとりを{kotoba('持つ', 'もつ', 'memiliki')}。",
+        "id": "⑥ Memiliki kelonggaran hati."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('休日', 'きゅうじつ', 'hari libur')}はしっかりと{kotoba('休養', 'きゅうよう', 'istirahat')}をとり、{kotoba('軽い', 'かるい', 'ringan')}{kotoba('運動', 'うんどう', 'olahraga')}や{kotoba('趣味', 'しゅみ', 'hobi')}などで、{kotoba('心', 'こころ', 'hati/pikiran')}もからだもリフレッシュさせましょう。",
+        "id": "Pada hari libur, beristirahatlah dengan cukup, dan segarkanlah tubuh serta pikiran dengan olahraga ringan atau hobi."
+    },
+    {
+        "is_header": True,
+        "jp": f"４．２ {kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}をなくす",
+        "id": "4.2 Menghilangkan Kebiasaan Mengemudi Mabuk"
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}は{kotoba('犯罪', 'はんざい', 'kejahatan')}",
+        "id": "・Mengemudi dalam Keadaan Mabuk adalah Tindak Kejahatan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}は{kotoba('重大事故', 'じゅうだいじこ', 'kecelakaan fatal')}につながる{kotoba('悪質', 'あくしつ', 'berbahaya')}{kotoba('で', '', 'dan')}{kotoba('危険な', 'きけんな', 'berbahaya')}{kotoba('犯罪行為', 'はんざいこうい', 'tindak pidana')}です。{kotoba('そのため', '', 'oleh karena itu')}{kotoba('罰則', 'ばっそく', 'hukuman/sanksi')}も{kotoba('重く', 'おもく', 'berat')}、{kotoba('事故', 'じこ', 'kecelakaan')}を{kotoba('起こさない', 'おこさない', 'tidak menyebabkan')}{kotoba('場合', 'ばあい', 'kasus')}でも{kotoba('懲役', 'ちょうえき', 'hukuman penjara')}や{kotoba('罰金', 'ばっきん', 'denda')}、{kotoba('運転免許', 'うんてんめんきょ', 'SIM')}の{kotoba('取消し', 'とりけし', 'pencabutan')}や{kotoba('停止', 'ていし', 'penangguhan')}などの{kotoba('処分', 'しょぶん', 'hukuman')}を{kotoba('受けます', 'うけます', 'menerima')}。",
+        "id": "Mengemudi di bawah pengaruh alkohol (mabuk) adalah tindakan kriminal berbahaya dan jahat yang dapat berujung pada kecelakaan fatal. Oleh karena itu, hukumannya pun berat. Meskipun Anda tidak menyebabkan kecelakaan, Anda akan menerima hukuman seperti penjara, denda, serta pencabutan atau penangguhan SIM."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}で{kotoba('人身事故', 'じんしんじこ', 'kecelakaan lalu lintas')}（{kotoba('人', 'ひと', 'orang')}を{kotoba('死亡', 'しぼう', 'mati')}させたり{kotoba('負傷', 'ふしょう', 'terluka')}させた{kotoba('事故', 'じこ', 'kecelakaan')}）を{kotoba('起こした', 'おこした', 'menyebabkan')}{kotoba('場合', 'ばあい', 'kasus')}には、{kotoba('刑務所', 'けいむしょ', 'penjara')}に{kotoba('入れられる', 'いれられる', 'dimasukkan')}ことも{kotoba('少なくありません', 'すくなくありません', 'tidak sedikit')}。どのような{kotoba('場合', 'ばあい', 'kasus')}でも、{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}は{kotoba('絶対', 'ぜったい', 'mutlak')}にしてはいけません。",
+        "id": "Jika menyebabkan kecelakaan yang melibatkan manusia (kecelakaan yang mengakibatkan korban jiwa atau luka) saat mengemudi dalam keadaan mabuk, tidak jarang pelakunya dimasukkan ke penjara. Dalam keadaan apa pun, Anda sama sekali dilarang mengemudi dalam keadaan mabuk."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('飲酒した', 'いんしゅした', 'setelah minum')}{kotoba('翌日', 'よくじつ', 'keesokan hari')}でもお{kotoba('酒', 'さけ', 'alkohol')}の{kotoba('影響', 'えいきょう', 'pengaruh')}が{kotoba('残っていれば', 'のこっていれば', 'jika masih ada')}{kotoba('罰せられる', 'ばっせられる', 'dihukum')}",
+        "id": "・Jika Pengaruh Alkohol Masih Tersisa Keesokan Harinya, Anda Tetap Akan Dihukum"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('飲酒した', 'いんしゅした', 'setelah minum')}{kotoba('翌日', 'よくじつ', 'keesokan hari')}でもお{kotoba('酒', 'さけ', 'alkohol')}の{kotoba('影響', 'えいきょう', 'pengaruh')}が{kotoba('残っていれば', 'のこっていれば', 'jika masih ada')}（これを「{kotoba('二日酔い', 'ふつかよい', 'hangover/mabuk sisa')}」と{kotoba('いいます', '', 'disebut')}）、「{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}」となり{kotoba('罰せられます', 'ばっせられます', 'dihukum')}。お{kotoba('酒', 'さけ', 'alkohol')}を{kotoba('飲んだ', 'のんだ', 'telah minum')}{kotoba('後', 'あと', 'setelah')}に{kotoba('睡眠', 'すいみん', 'tidur')}をとったから、{kotoba('数時間', 'すうじかん', 'beberapa jam')}が{kotoba('経過', 'けいか', 'berlalu')}しているから、「{kotoba('飲酒運転', 'いんしゅうんてん', 'berkendara mabuk')}」にはならないとは{kotoba('決していえません', 'けっしていえません', 'sama sekali tidak bisa dikatakan')}。{kotoba('少し', 'すこし', 'sedikit')}でもお{kotoba('酒', 'さけ', 'alkohol')}の{kotoba('影響', 'えいきょう', 'pengaruh')}が{kotoba('残っている', 'のこっている', 'masih ada')}ときは{kotoba('運転', 'うんてん', 'mengemudi')}してはいけません。",
+        "id": "Meskipun keesokan harinya setelah Anda minum, jika pengaruh alkohol masih ada (kondisi ini disebut mabuk karena efek alkohol sebelumnya atau *hangover*), hal ini akan dianggap sebagai \"mengemudi dalam keadaan mabuk\" dan Anda akan dihukum. Sama sekali tidak bisa dijadikan alasan bahwa Anda tidak \"mengemudi mabuk\" hanya karena Anda sudah tidur atau sudah beberapa jam berlalu setelah Anda minum. Anda tidak boleh mengemudi selama pengaruh alkohol masih terasa sekecil apa pun."
+    },
+    {
+        "is_header": True,
+        "jp": f"４．３ {kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}（{kotoba('制限速度', 'せいげんそくど', 'batas kecepatan')}）を{kotoba('守る', 'まもる', 'mematuhi')}",
+        "id": "4.3 Mematuhi Kecepatan Maksimum (Batas Kecepatan)"
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}ではトラックの{kotoba('種別', 'しゅべつ', 'jenis')}で{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}が{kotoba('違う', 'ちがう', 'berbeda')}",
+        "id": "◆ Di Jalan Tol Nasional, Kecepatan Maksimum Berbeda Berdasarkan Jenis Truk"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}には「{kotoba('法定速度', 'ほうていそくど', 'kecepatan menurut UU')}」と「{kotoba('規制速度', 'きせいそくど', 'kecepatan aturan')}」があります。",
+        "id": "Kecepatan maksimum dibagi atas \"kecepatan menurut perundang-undangan (kecepatan legal)\" dan \"kecepatan yang diatur/ditentukan rambu\"."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('法定速度', 'ほうていそくど', 'kecepatan menurut UU')}とは、{kotoba('標識', 'ひょうしき', 'rambu')}や{kotoba('標示', 'ひょうじ', 'marka')}によって{kotoba('速度', 'そくど', 'kecepatan')}が{kotoba('指定', 'してい', 'ditentukan')}されていない{kotoba('場合', 'ばあい', 'kasus')}の{kotoba('法令', 'ほうれい', 'peraturan perundang-undangan')}で{kotoba('定められた', 'さだめられた', 'ditetapkan')}{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}を{kotoba('いいます', '', 'disebut')}。{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}{kotoba('の', '', 'partikel')} {kotoba('場合', 'ばあい', 'kasus')}、トラックの{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}は{kotoba('時速', 'じそく', 'kecepatan per jam')}60キロです。{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}{kotoba('の', '', 'partikel')} {kotoba('場合', 'ばあい', 'kasus')}は、トラックの{kotoba('種類', 'しゅるい', 'jenis')}によって{kotoba('異なり', 'ことなり', 'berbeda')}、{kotoba('時速', 'じそく', 'kecepatan per jam')}100キロ、{kotoba('時速', 'じそく', 'kecepatan per jam')}90キロ、{kotoba('時速', 'じそく', 'kecepatan per jam')}80キロの3つに{kotoba('区分', 'くぶん', 'dibagi')}されます。{kotoba('中型', 'ちゅうがた', 'ukuran menengah')}トラックの{kotoba('場合', 'ばあい', 'kasus')}は{kotoba('車両総重量', 'しゃりょうそうじゅうりょう', 'berat total kendaraan')}（{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('最大', 'さいだい', 'maksimal')}に{kotoba('載せた', 'のせた', 'dimuat')}ときのその{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('重さ', 'おもさ', 'berat')}）・{kotoba('最大積載量', 'さいだいせきさいりょう', 'kapasitas muatan maksimal')}（その{kotoba('車', 'くるま', 'kendaraan')}に{kotoba('載せられる', 'のせられる', 'bisa dimuat')}{kotoba('荷物', 'にもつ', 'barang')}の{kotoba('最大', 'さいだい', 'maksimal')}の{kotoba('重さ', 'おもさ', 'berat')}）によって{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}が{kotoba('異なります', 'ことなります', 'berbeda')}から{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "Kecepatan menurut perundang-undangan adalah kecepatan maksimum yang ditetapkan oleh hukum ketika tidak ada kecepatan yang ditentukan oleh rambu lalu lintas atau marka jalan. Pada jalan umum, kecepatan maksimum untuk truk adalah 60 km/jam. Sedangkan di jalan tol nasional, kecepatan maksimum berbeda-beda tergantung jenis truk, yang terbagi dalam tiga kategori: 100 km/jam, 90 km/jam, dan 80 km/jam. Untuk truk menengah, kecepatan maksimum berbeda tergantung pada berat kotor kendaraan (berat kendaraan saat mengangkut beban maksimum) dan beban muatan maksimum (berat muatan maksimum yang dapat dimuat di kendaraan), jadi berhati-hatilah."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('規制速度', 'きせいそくど', 'kecepatan aturan')}とは",
+        "id": "・Apa itu Kecepatan yang Diatur (Regulasi)?"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('規制速度', 'きせいそくど', 'kecepatan aturan')}とは、{kotoba('標識', 'ひょうしき', 'rambu')}や{kotoba('標示', 'ひょうじ', 'marka')}により{kotoba('指定', 'してい', 'ditentukan')}された{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}を{kotoba('いいます', '', 'disebut')}。{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}{kotoba('の', '', 'partikel')} {kotoba('場合', 'ばあい', 'kasus')}、{kotoba('時速', 'じそく', 'kecepatan per jam')}40キロや{kotoba('時速', 'じそく', 'kecepatan per jam')}30キロに{kotoba('規制', 'きせい', 'diatur')}されているところが{kotoba('多く', 'おおく', 'banyak')}あります。{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}についても、{kotoba('雨', 'あめ', 'hujan')}や{kotoba('雪', 'ゆき', 'salju')}、{kotoba('強風', 'きょうふう', 'angin kencang')}などのときには{kotoba('速度', 'そくど', 'kecepatan')}が{kotoba('規制', 'きせい', 'diatur')}されますから、{kotoba('速度', 'そくど', 'kecepatan')}の{kotoba('標識', 'ひょうしき', 'rambu')}や{kotoba('標示', 'ひょうじ', 'marka')}によく{kotoba('注意', 'ちゅうい', 'perhatian')}して{kotoba('走行', 'そうこう', 'berjalan/melaju')}しましょう。",
+        "id": "Kecepatan yang diatur adalah kecepatan maksimum yang ditentukan oleh rambu lalu lintas atau marka jalan. Di jalan umum, banyak area yang kecepatannya dibatasi hingga 40 km/jam atau 30 km/jam. Bahkan di jalan tol nasional, kecepatan akan dibatasi saat terjadi hujan, salju, angin kencang, dan lainnya, jadi berkendaralah dengan selalu memperhatikan rambu dan marka kecepatan."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('自動車専用道路', 'じどうしゃせんようどうろ', 'jalan khusus mobil')}の{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}は{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}と{kotoba('同じ', 'おなじ', 'sama')}",
+        "id": "◆ Kecepatan Maksimum di Jalan Khusus Kendaraan Sama dengan Jalan Umum"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}と{kotoba('自動車専用道路', 'じどうしゃせんようどうろ', 'jalan khusus mobil')}を{kotoba('合わせて', 'あわせて', 'digabungkan')}「{kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}」と{kotoba('いいます', '', 'disebut')}が、{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}と{kotoba('自動車専用道路', 'じどうしゃせんようどうろ', 'jalan khusus mobil')}では{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}が{kotoba('違います', 'ちがいます', 'berbeda')}。",
+        "id": "Jalan tol nasional dan jalan khusus kendaraan secara kolektif sering disebut \"jalan tol\", tetapi kecepatan maksimum keduanya berbeda."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('自動車専用道路', 'じどうしゃせんようどうろ', 'jalan特別')}の{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}は{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}と{kotoba('同じ', 'おなじ', 'sama')}であり、{kotoba('標識', 'ひょうしき', 'rambu')}や{kotoba('標示', 'ひょうじ', 'marka')}により{kotoba('速度', 'そくど', 'kecepatan')}が{kotoba('指定', 'してい', 'ditentukan')}されていない{kotoba('場合', 'ばあい', 'kasus')}の{kotoba('最高速度', 'さいこうそくど', 'kecepatan maksimum')}は{kotoba('時速', 'じそく', 'kecepatan per jam')}60キロです。{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}と{kotoba('同じ', 'おなじ', 'sama')}{kotoba('感覚', 'かんかく', 'perasaan/insting')}で{kotoba('速度', 'そくど', 'kecepatan')}を{kotoba('出す', 'だす', 'mengeluarkan')}と、{kotoba('速度違反', 'そくどいはん', 'pelanggaran kecepatan')}になる{kotoba('おそれ', '', 'kekhawatiran')}がありますから{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "Kecepatan maksimum jalan khusus kendaraan sama dengan kecepatan jalan umum, yakni kecepatan maksimum saat tidak ada rambu atau marka penunjuk kecepatan adalah 60 km/jam. Jika Anda mengemudi dengan perasaan kecepatan yang sama seperti di jalan tol nasional, Anda berisiko melakukan pelanggaran batas kecepatan, jadi harap berhati-hati."
+    },
+    {
+        "is_header": True,
+        "jp": f"４．４ {kotoba('交差点', 'こうさてん', 'persimpangan')}の{kotoba('通行', 'つうこう', 'melintas')}",
+        "id": "4.4 Melintasi Persimpangan"
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('安全', 'あんぜん', 'keselamatan')}の{kotoba('確認', 'かくにん', 'konfirmasi')}と{kotoba('合図', 'あいず', 'sinyal')}",
+        "id": "・Memastikan Keselamatan dan Memberikan Sinyal (Lampu Sein)"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('進路変更', 'しんろへんこう', 'pindah jalur')}、{kotoba('転回', 'てんかい', 'putar balik')}、{kotoba('後退', 'こうたい', 'mundur')}などをしようとするときは、{kotoba('あらかじめ', '', 'sebelumnya')}バックミラーなどで{kotoba('安全', 'あんぜん', 'aman')}を{kotoba('確かめて', 'たしかめて', 'memastikan')}から{kotoba('合図', 'あいず', 'sinyal')}をしなければなりません。",
+        "id": "Saat hendak mengubah jalur, memutar balik (U-turn), memundurkan kendaraan, dan sebagainya, Anda harus memeriksa keadaan sekitar melalui kaca spion agar aman sebelum memberikan sinyal (lampu sein)."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('左折', 'させつ', 'belok kiri')}・{kotoba('右折', 'うせつ', 'belok kanan')}をする{kotoba('場合', 'ばあい', 'kasus')}の{kotoba('合図', 'あいず', 'sinyal')}は、{kotoba('左折', 'させつ', 'belok kiri')}・{kotoba('右折', 'うせつ', 'belok kanan')}をする{kotoba('地点', 'ちてん', 'titik')}（{kotoba('交差点', 'こうさてん', 'persimpangan')}）の30メートル{kotoba('手前', 'てまえ', 'sebelum')}の{kotoba('地点', 'ちてん', 'titik')}でしなければなりません。",
+        "id": "Sinyal untuk berbelok ke kiri atau kanan harus diberikan pada jarak 30 meter sebelum titik berbelok (persimpangan) yang dituju."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('交差点', 'こうさてん', 'persimpangan')}の{kotoba('右折時', 'うせつじ', 'saat belok kanan')}・{kotoba('左折時', 'させつじ', 'saat belok kiri')}は{kotoba('徐行', 'じょこう', 'melaju pelan')}",
+        "id": "・Perlahan-lahan Saat Berbelok ke Kanan dan Kiri di Persimpangan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('自動車', 'じどうしゃ', 'mobil')}は、{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('中央', 'ちゅうおう', 'tengah')}（{kotoba('中央線', 'ちゅうおうせん', 'garis tengah')}があるときは、その{kotoba('中央線', 'ちゅうおうせん', 'garis tengah')}）から{kotoba('左', 'ひだり', 'kiri')}の{kotoba('部分', 'ぶぶん', 'bagian')}を{kotoba('通行', 'つうこう', 'melintas')}しなければなりません。",
+        "id": "Mobil harus melaju di bagian kiri dari tengah jalan (jika ada garis tengah, berarti di sisi kiri garis tersebut)."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('交差点', 'こうさてん', 'persimpangan')}では、{kotoba('他', 'ほか', 'lain')}の{kotoba('車', 'くるま', 'kendaraan')}、{kotoba('横断する', 'おうだんする', 'menyeberang')}{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}などによく{kotoba('注意', 'ちゅうい', 'perhatikan')}して、できるかぎり{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('速度', 'そくど', 'kecepatan')}と{kotoba('方法', 'ほうほう', 'cara')}で{kotoba('走行する', 'そうこうする', 'berjalan/melaju')}{kotoba('必要', 'ひつよう', 'perlu')}があります。とくに{kotoba('事故', 'じこ', 'kecelakaan')}の{kotoba('起こりやすい', 'おこりやすい', 'mudah terjadi')}{kotoba('右折時', 'うせつじ', 'saat belok kanan')}・{kotoba('左折時', 'させつじ', 'saat belok kiri')}は{kotoba('徐行', 'じょこう', 'melaju pelan')}（ただちに{kotoba('停止', 'ていし', 'berhenti')}できる{kotoba('速度', 'そくど', 'kecepatan')}で{kotoba('進行する', 'しんこうする', 'maju/melaju')}こと）が{kotoba('義務づけられて', 'ぎむづけられて', 'diwajibkan')}いますから、{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}の{kotoba('手前', 'てまえ', 'sebelum')}で{kotoba('余裕', 'よゆう', 'waktu/jarak luang')}をもって{kotoba('停止', 'ていし', 'berhenti')}できるよう{kotoba('十分', 'じゅうぶん', 'cukup')}に{kotoba('速度', 'そくど', 'kecepatan')}を{kotoba('落として', 'おとして', 'mengurangi')}{kotoba('進行', 'しんこう', 'maju/melaju')}しましょう。",
+        "id": "Di persimpangan, Anda harus sangat memperhatikan kendaraan lain, serta pejalan kaki dan sepeda yang menyeberang, dan mengemudi dengan kecepatan serta cara yang seaman mungkin. Khususnya saat berbelok kanan dan kiri yang rentan terjadi kecelakaan, Anda diwajibkan untuk melaju pelan (dengan kecepatan yang memungkinkan untuk langsung berhenti). Jadi, kurangilah kecepatan secukupnya dan melajulah perlahan agar Anda memiliki jarak henti yang aman di depan zebra cross."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('右折車', 'うせつしゃ', 'kendaraan belok kanan')}より{kotoba('直進車', 'ちょくしんしゃ', 'kendaraan lurus')}や{kotoba('左折車', 'させつしゃ', 'kendaraan belok kiri')}が{kotoba('優先', 'ゆうせん', 'prioritas')}",
+        "id": "◆ Kendaraan yang Melaju Lurus dan Berbelok Kiri Diprioritaskan daripada Kendaraan Berbelok Kanan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('交差点', 'こうさてん', 'persimpangan')}では、{kotoba('右折する', 'うせつする', 'berbelok kanan')}{kotoba('車', 'くるま', 'kendaraan')}よりも{kotoba('直進する', 'ちょくしんする', 'berjalan lurus')}{kotoba('車', 'くるま', 'kendaraan')}や{kotoba('左折する', 'させつする', 'berbelok kiri')}{kotoba('車', 'くるま', 'kendaraan')}のほうが{kotoba('優先', 'ゆうせん', 'prioritas')}されます。たとえ{kotoba('自分', 'じぶん', 'sendiri')}のほうが{kotoba('先', 'さき', 'lebih dulu')}に{kotoba('交差点', 'こうさてん', 'persimpangan')}に{kotoba('入って', 'はいって', 'masuk')}いても、{kotoba('直進車', 'ちょくしんしゃ', 'kendaraan lurus')}や{kotoba('左折車', 'させつしゃ', 'kendaraan belok kiri')}の{kotoba('進行', 'しんこう', 'maju/melaju')}を{kotoba('妨げて', 'さまたげて', 'menghalangi')}はいけません。{kotoba('直進車', 'ちょくしんしゃ', 'kendaraan lurus')}や{kotoba('左折車', 'させつしゃ', 'kendaraan belok kiri')}の{kotoba('通過', 'つうか', 'melewati')}を{kotoba('待って', 'まって', 'menunggu')}、{kotoba('安全', 'あんぜん', 'aman')}が{kotoba('確認', 'かくにん', 'konfirmasi')}できてから{kotoba('右折する', 'うせつする', 'berbelok kanan')}ようにしましょう。",
+        "id": "Di persimpangan, prioritas diberikan kepada kendaraan yang melaju lurus atau berbelok kiri dibandingkan kendaraan yang berbelok kanan. Meskipun Anda memasuki persimpangan lebih dahulu, Anda tidak boleh menghalangi laju kendaraan yang berjalan lurus atau berbelok ke kiri. Tunggulah kendaraan tersebut melintas dan pastikan keamanan sebelum Anda berbelok ke kanan."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('信号機', 'しんごうき', 'lampu lalu lintas')}のない{kotoba('交差点', 'こうさてん', 'persimpangan')}の{kotoba('通行', 'つうこう', 'melintas')}",
+        "id": "・Melintasi Persimpangan Tanpa Lampu Lalu Lintas"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('信号機', 'しんごうき', 'lampu lalu lintas')}のない{kotoba('交差点', 'こうさてん', 'persimpangan')}では、とくに{kotoba('次', 'つぎ', 'berikut')}の{kotoba('点', 'てん', 'poin')}に{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "Di persimpangan yang tidak dilengkapi lampu lalu lintas, perhatikanlah poin-poin berikut ini secara khusus."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('交差する', 'こうさする', 'bersilangan')}{kotoba('道路', 'どうろ', 'jalan')}が{kotoba('優先道路', 'ゆうせんどうろ', 'jalan prioritas')}である{kotoba('場合', 'ばあい', 'kasus')}や{kotoba('明らか', 'あきらか', 'jelas')}に{kotoba('道幅', 'みちはば', 'lebar jalan')}が{kotoba('広い', 'ひろい', 'lebar')}{kotoba('場合', 'ばあい', 'kasus')}は、{kotoba('徐行', 'じょこう', 'melaju pelan')}して{kotoba('交差道路側', 'こうさどうろがわ', 'sisi jalan bersilangan')}の{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにします。",
+        "id": "・Jika jalan yang bersilangan adalah jalan utama (prioritas) atau jika jalannya jelas lebih lebar, turunkan kecepatan dan jangan menghalangi kendaraan yang datang dari jalan persilangan tersebut."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('道幅', 'みちはば', 'lebar jalan')}が{kotoba('同じ', 'おなじ', 'sama')}ような{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('交差点', 'こうさてん', 'persimpangan')}では、{kotoba('左方', 'さほう', 'sisi kiri')}からくる{kotoba('車', 'くるま', 'kendaraan')}のほうが{kotoba('優先', 'ゆうせん', 'prioritas')}されますから、{kotoba('左方', 'さほう', 'sisi kiri')}から{kotoba('車', 'くるま', 'kendaraan')}が{kotoba('接近している', 'せっきんしている', 'mendekat')}ときはその{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにします。",
+        "id": "・Di persimpangan yang lebar jalannya relatif sama, prioritas diberikan pada kendaraan yang datang dari arah kiri. Oleh karena itu, jika ada kendaraan yang mendekat dari sebelah kiri, Anda tidak boleh menghalanginya."
+    },
+    {
+        "is_header": False,
+        "jp": f"※{kotoba('道幅', 'みちはば', 'lebar jalan')}が{kotoba('同じ', 'おなじ', 'sama')}ような{kotoba('交差点', 'こうさてん', 'persimpangan')}の{kotoba('場合', 'ばあい', 'kasus')}、{kotoba('自車', 'じしゃ', 'kendaraan sendiri')}のほうが{kotoba('交差する', 'こうさする', 'bersilangan')}{kotoba('道路', 'どうろ', 'jalan')}よりも{kotoba('道幅', 'みちはば', 'lebar jalan')}が{kotoba('広く', 'ひろく', 'lebar')}{kotoba('見える', 'みえる', 'terlihat')}ことがありますから{kotoba('注意', 'ちゅうい', 'perhatian')}しましょう。",
+        "id": "※Di persimpangan dengan lebar jalan yang serupa, lebar jalan tempat kendaraan Anda melaju terkadang bisa tampak lebih lebar dari jalan persilangan, jadi berhati-hatilah."
+    }
+    # Data Bab 4 (4.5 - 4.10) Lengkap
+    # --- 4.5 車間距離の保持 ---
+    {
+        "is_header": True,
+        "jp": f"４．５ {kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}の{kotoba('保持', 'ほじ', 'menjaga')}",
+        "id": "4.5 Menjaga Jarak Antar Kendaraan"
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('前車', 'ぜんしゃ', 'kendaraan depan')}が{kotoba('急停止', 'きゅうていし', 'berhenti mendadak')}しても{kotoba('追突しない', 'ついとつしない', 'tidak menabrak')}{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}をとる",
+        "id": "・Menjaga Jarak Kendaraan agar Tidak Menabrak Jika Kendaraan Depan Berhenti Mendadak"
+    },
+    {
+        "is_header": False,
+        "jp": f"トラック{kotoba('事故', 'じこ', 'kecelakaan')}の{kotoba('特徴', 'とくちょう', 'ciri-ciri')}は{kotoba('追突', 'ついとつ', 'tabrak belakang')}が{kotoba('多い', 'おおい', 'banyak')}ということです。{kotoba('追突事故', 'ついとつじこ', 'kecelakaan tabrak belakang')}を{kotoba('防止する', 'ぼうしする', 'mencegah')}ためには、{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}（{kotoba('前', 'まえ', 'depan')}を{kotoba('走る', 'はしる', 'berjalan')}{kotoba('車', 'くるま', 'kendaraan')}との{kotoba('距離', 'きょり', 'jarak')}）を{kotoba('十分', 'じゅうぶん', 'cukup')}にとることがポイントです。",
+        "id": "Salah satu ciri utama kecelakaan truk adalah tingginya insiden tabrakan dari belakang. Untuk mencegah kecelakaan tabrak belakang, intinya adalah mengambil jarak aman antar kendaraan (jarak dengan kendaraan yang melaju di depan) yang cukup."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('十分な', 'じゅうぶんな', 'cukup')}{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}をとっていれば、{kotoba('前', 'まえ', 'depan')}の{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('急な', 'きゅうな', 'mendadak')}{kotoba('減速', 'げんそく', 'kurang kecepatan')}や{kotoba('停止', 'ていし', 'berhenti')}にも{kotoba('対応', 'たいおう', 'merespons')}できます。",
+        "id": "Jika Anda menjaga jarak antar kendaraan yang cukup, Anda dapat merespons penurunan kecepatan atau berhentinya kendaraan depan secara mendadak."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('十分な', 'じゅうぶんな', 'cukup')}{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}の{kotoba('目安', 'めやす', 'patokan')}として、{kotoba('一般道路', 'いっぱんどうろ', 'jalan umum')}では、{kotoba('速度計', 'そくどけい', 'speedometer')}の{kotoba('数字', 'すうじ', 'angka')}から15を{kotoba('引いた', 'ひいた', 'dikurangi')}{kotoba('数字以上', 'すうじいじょう', 'angka ke atas')}、{kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}では{kotoba('速度計', 'そくどけい', 'speedometer')}の{kotoba('数字', 'すうじ', 'angka')}をメートルに{kotoba('置き換えた', 'おきかえた', 'diganti')}{kotoba('数字以上', 'すうじいじょう', 'angka ke atas')}と{kotoba('覚えて', 'おぼえて', 'ingatlah')}おきましょう。",
+        "id": "Sebagai patokan jarak antar kendaraan yang cukup, ingatlah: di jalan umum, angkanya sama dengan atau lebih besar dari angka pada spidometer dikurangi 15; sedangkan di jalan tol, angkanya sama dengan atau lebih besar dari angka spidometer yang dikonversi menjadi satuan meter."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('意識', 'いしき', 'secara sadar')}して{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}をとる",
+        "id": "・Menjaga Jarak Aman Kendaraan Secara Sadar"
+    },
+    {
+        "is_header": False,
+        "jp": f"トラックは{kotoba('運転席', 'うんてんせき', 'kursi pengemudi')}が{kotoba('高い', 'たかい', 'tinggi')}ために{kotoba('路面', 'ろめん', 'permukaan jalan')}がよく{kotoba('見えます', 'みえます', 'terlihat')}。{kotoba('そのため', '', 'oleh karena itu')}トラック{kotoba('運転者', 'うんてんしゃ', '描く')}は{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}が{kotoba('実際', 'じっさい', 'sebenarnya')}よりも{kotoba('長い', 'ながい', 'panjang')}ように{kotoba('感じやすく', 'かんじやすく', 'mudah merasa')}、{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}を{kotoba('短く', 'みじかく', 'pendek')}してしまうことが{kotoba('多い', 'おおい', 'banyak')}ので、{kotoba('意識', 'いしき', 'secara sadar')}して{kotoba('十分な', 'じゅうぶんな', 'cukup')}{kotoba('車間距離', 'しゃかんきょり', 'jarak antar kendaraan')}をとるようにしましょう。",
+        "id": "Karena kursi pengemudi truk tinggi, permukaan jalan terlihat jelas. Hal ini sering membuat pengemudi truk merasa jarak antar kendaraan lebih panjang dari yang sebenarnya, sehingga rentan memperpendek jarak. Oleh karena itu, sadarilah hal ini dan pastikan Anda mengambil jarak antar kendaraan yang cukup."
+    },
+
+    # --- 4.6 スマートフォンなどの使用運転の禁止 ---
+    {
+        "is_header": True,
+        "jp": f"４．６ スマートフォンなどの{kotoba('使用運転', 'しよううんてん', 'mengemudi sambil menggunakan')}の{kotoba('禁止', 'きんし', 'larangan')}",
+        "id": "4.6 Larangan Mengemudi Sambil Menggunakan Smartphone dll."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆スマートフォン{kotoba('等', 'など', 'dan lain-lain')}の{kotoba('使用運転', 'しよううんてん', 'mengemudi sambil menggunakan')}の{kotoba('危険性', 'きけんせい', 'bahaya')}",
+        "id": "◆ Bahayanya Mengemudi Sambil Menggunakan Smartphone dll."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}にスマートフォンや{kotoba('携帯電話', 'けいたいでんわ', 'handphone')}などを{kotoba('操作したり', 'そうさしたり', 'mengoperasikan')}{kotoba('画面', 'がめん', 'layar')}を{kotoba('注視する', 'ちゅうしする', 'menatap')}と、{kotoba('停止した', 'ていしした', 'berhenti')}{kotoba('前車', 'ぜんしゃ', 'kendaraan depan')}に{kotoba('気づく', 'きづく', 'menyadari')}のが{kotoba('遅れて', 'おくれて', 'terlambat')}{kotoba('追突する', 'ついとつする', 'menabrak')}などの{kotoba('事故', 'じこ', 'kecelakaan')}につながります。",
+        "id": "Mengoperasikan ponsel cerdas (smartphone) atau handphone dan menatap layarnya saat mengemudi dapat memperlambat Anda menyadari kendaraan di depan yang telah berhenti, sehingga berujung pada kecelakaan tabrakan dari belakang."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('そのため', '', 'oleh karena itu')}{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}のスマートフォンなどの{kotoba('操作', 'そうさ', 'pengoperasian')}や{kotoba('画面', 'がめん', 'layar')}の{kotoba('注視', 'ちゅうし', 'menatap')}は{kotoba('禁止', 'きんし', 'dilarang')}されていて、{kotoba('違反した', 'いはんした', 'melanggar')}{kotoba('場合', 'ばあい', 'kasus')}には{kotoba('重い', 'おもい', 'berat')}{kotoba('処罰', 'しょばつ', 'hukuman')}がおこなわれます。{kotoba('交通事故', 'こうつうじこ', 'kecelakaan lalu lintas')}を{kotoba('起こした', 'おこした', 'menyebabkan')}{kotoba('場合', 'ばあい', 'kasus')}は、{kotoba('懲役', 'ちょうえき', 'hukuman penjara')}または{kotoba('罰金刑', 'ばっきんけい', 'hukuman denda')}を{kotoba('受けます', 'うけます', 'menerima')}。",
+        "id": "Oleh karena itu, mengoperasikan smartphone atau menatap layarnya saat sedang melaju adalah dilarang. Jika melanggar, Anda akan menerima hukuman yang berat. Jika Anda sampai menyebabkan kecelakaan lalu lintas, Anda akan dipenjara atau didenda."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('使用', 'しよう', 'penggunaan')}は{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('場所', 'ばしょ', 'tempat')}での{kotoba('停止時', 'ていしじ', 'saat berhenti')}に{kotoba('行う', 'おこなう', 'melakukan')}",
+        "id": "◆ Lakukan Penggunaan di Tempat yang Aman Saat Berhenti"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}に、スマートフォンなどを{kotoba('使用', 'しよう', 'menggunakan')}しなければならないときは、{kotoba('必ず', 'かならず', 'selalu/pasti')}{kotoba('駐車場', 'ちゅうしゃじょう', 'tempat parkir')}などの{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('場所', 'ばしょ', 'tempat')}に{kotoba('車', 'くるま', 'kendaraan')}を{kotoba('止めて', 'とめて', 'memberhentikan')}から{kotoba('操作', 'そうさ', 'pengoperasian')}します。{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('左端', 'ひだりはし', 'tepi kiri')}に{kotoba('停止して', 'ていしして', 'berhenti')}{kotoba('の', '', 'partikel')} {kotoba('使用', 'しよう', 'penggunaan')}は、{kotoba('後続車', 'こうぞくしゃ', 'kendaraan belakang')}に{kotoba('追突される', 'ついとつされる', 'ditabrak dr belakang')}{kotoba('危険', 'きけん', 'bahaya')}があるだけでなく、{kotoba('車体', 'しゃたい', 'bodi kendaraan')}の{kotoba('大きな', 'おおきな', 'besar')}トラックは{kotoba('他', 'ほか', 'lain')}の{kotoba('交通', 'こうつう', 'lalu lintas')}の{kotoba('妨げ', 'さまたげ', 'hambatan')}になり{kotoba('渋滞', 'じゅうたい', 'macet')}などを{kotoba('招く', 'まねく', 'mengundang')}{kotoba('おそれ', '', 'kekhawatiran')}もありますから{kotoba('避けましょう', 'さけましょう', 'mari hindari')}。",
+        "id": "Jika Anda harus menggunakan smartphone dan sebagainya saat mengemudi, Anda harus selalu memberhentikan kendaraan di tempat yang aman seperti tempat parkir sebelum mengoperasikannya. Menggunakan perangkat dengan berhenti di tepi kiri jalan tidak hanya berisiko ditabrak oleh kendaraan dari belakang, tetapi truk besar juga berpotensi menghalangi arus lalu lintas lain dan menyebabkan kemacetan. Jadi, hindarilah tindakan ini."
+    },
+    {
+        "is_header": False,
+        "jp": f"なお、{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}に{kotoba('着信音', 'ちゃくしんおん', 'nada dering')}が{kotoba('鳴る', 'なる', 'berbunyi')}だけでも、それに{kotoba('気', 'き', 'perhatian')}をとられて{kotoba('前方', 'ぜんぽう', 'depan')}への{kotoba('注意', 'ちゅうい', 'perhatian')}が{kotoba('欠ける', 'かける', 'kurang/hilang')}ことがあります。{kotoba('走行中', 'そうこうちゅう', 'saat melaju')}は{kotoba('電源', 'でんげん', 'daya')}を{kotoba('切って', 'きって', 'mematikan')}おくか、マナーモードやドライブモードにしておきましょう。",
+        "id": "Selain itu, sekadar nada dering yang berbunyi saat mengemudi pun bisa mengalihkan perhatian dan menyebabkan berkurangnya kewaspadaan ke arah depan. Saat mengemudi, matikanlah perangkat atau atur menjadi mode senyap (*manner mode*) atau *drive mode*."
+    },
+
+    # --- 4.7 歩行者などの保護 ---
+    {
+        "is_header": True,
+        "jp": f"４．７ {kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}などの{kotoba('保護', 'ほご', 'perlindungan')}",
+        "id": "4.7 Perlindungan Pejalan Kaki dll."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('間隔', 'かんかく', 'jarak/celah')}をとる",
+        "id": "・Berikan Jarak (Ruang) yang Aman"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}はちょっと{kotoba('接触した', 'せっしょくした', 'menyentuh/menyerempet')}だけでも{kotoba('重大な', 'じゅうだいな', 'fatal')}{kotoba('人身事故', 'じんしんじこ', 'kecelakaan lalu lintas')}につながります。{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}の{kotoba('側方', 'そくほう', 'sisi samping')}を{kotoba('通る', 'とおる', 'melintas')}ときは、{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('間隔', 'かんかく', 'jarak/celah')}をあけるか、それができない{kotoba('場合', 'ばあい', 'kasus')}は{kotoba('徐行', 'じょこう', 'melaju pelan')}しましょう。",
+        "id": "Pejalan kaki dan sepeda bisa mengalami kecelakaan fatal bahkan jika hanya terserempet sedikit. Ketika melintasi samping pejalan kaki atau sepeda, berilah jarak yang aman, atau jika tidak memungkinkan, pelankan laju kendaraan Anda (徐行)."
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('安全な', 'あんぜんな', 'aman')}{kotoba('間隔', 'かんかく', 'jarak/celah')}については、{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}が{kotoba('急に', 'きゅうに', 'tiba-tiba')}{kotoba('ふらついたりした', '', 'oleng')}{kotoba('場合', 'ばあい', 'kasus')}でも{kotoba('安全', 'あんぜん', 'keselamatan')}が{kotoba('保てる', 'たもてる', 'dijaga')}よう、1メートル{kotoba('以上', 'いじょう', 'ke atas')}の{kotoba('間隔', 'かんかく', 'jarak/celah')}が{kotoba('必要', 'ひつよう', 'perlu')}です。",
+        "id": "Jarak yang aman di sini berarti Anda membutuhkan setidaknya jarak lebih dari 1 meter agar keselamatan tetap terjaga meskipun sepeda atau pejalan kaki tersebut tiba-tiba oleng."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}に{kotoba('接近する', 'せっきんする', 'mendekat')}ときの{kotoba('注意点', 'ちゅういてん', 'poin perhatian')}",
+        "id": "・Poin-poin Perhatian Saat Mendekati Zebra Cross"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('信号機', 'しんごうき', 'lampu lalu lintas')}のない{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}に{kotoba('接近する', 'せっきんする', 'mendekat')}{kotoba('場合', 'ばあい', 'kasus')}は、{kotoba('次', 'つぎ', 'berikut')}のものを{kotoba('守りましょう', 'まもりましょう', 'mari patuhi')}。",
+        "id": "Saat Anda mendekati zebra cross yang tidak memiliki lampu lalu lintas, patuhilah hal-hal berikut:"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('横断する', 'おうだんする', 'menyeberang')}{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}がいないことが{kotoba('明らかな', 'あきらかな', 'jelas')}ときは、そのまま{kotoba('進む', 'すすむ', 'maju')}ことができます。",
+        "id": "① Jika jelas terlihat bahwa tidak ada pejalan kaki atau sepeda yang akan menyeberang, Anda dapat terus melaju."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('横断する', 'おうだんする', 'menyeberang')}{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}がいるかいないか{kotoba('明らか', 'あきらか', 'jelas')}でないときは、{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}の{kotoba('手前', 'てまえ', 'sebelum')}で{kotoba('停止', 'ていし', 'berhenti')}できる{kotoba('速度', 'そくど', 'kecepatan')}に{kotoba('落として', 'おとして', 'mengurangi')}{kotoba('進行', 'しんこう', 'maju/melaju')}します。",
+        "id": "② Jika tidak jelas apakah ada atau tidak ada pejalan kaki atau sepeda yang akan menyeberang, kurangi kecepatan hingga pada kecepatan di mana Anda bisa berhenti tepat sebelum zebra cross."
+    },
+    {
+        "is_header": False,
+        "jp": f"③{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}が{kotoba('横断して', 'おうだんして', 'menyeberang')}いたり、{kotoba('横断', 'おうだん', 'menyeberang')}しようとしているときは、{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}の{kotoba('手前', 'てまえ', 'sebelum')}で{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}をして、{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}の{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにします。",
+        "id": "③ Saat ada pejalan kaki atau sepeda yang sedang menyeberang atau hendak menyeberang, hentikan kendaraan sejenak (一時停止) tepat sebelum zebra cross agar tidak menghalangi mereka melintas."
+    },
+    {
+        "is_header": False,
+        "jp": f"④{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}の{kotoba('直前', 'ちょくぜん', 'tepat sebelum')}に{kotoba('車', 'くるま', 'kendaraan')}が{kotoba('停止', 'ていし', 'berhenti')}しているときは、{kotoba('停止車', 'ていししゃ', 'mobil berhenti')}の{kotoba('前方', 'ぜんぽう', 'depan')}に{kotoba('出る', 'でる', 'keluar')}{kotoba('前', 'まえ', 'sebelum')}に{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}して、{kotoba('横断歩道', 'おうだんほどう', 'zebra cross')}の{kotoba('安全確認', 'あんぜんかくにん', 'konfirmasi安全性')}をします。",
+        "id": "④ Jika ada mobil yang berhenti tepat di depan zebra cross, hentikanlah kendaraan sejenak sebelum Anda mendahului mobil yang berhenti tersebut, dan pastikan kondisi zebra cross aman."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('幼児', 'ようじ', 'balita')}や{kotoba('高齢者', 'こうれいしゃ', 'lansia')}などの{kotoba('保護', 'ほご', 'perlindungan')}",
+        "id": "・Melindungi Anak-anak, Lansia, dan Pejalan Kaki Berkebutuhan Khusus"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('幼児', 'ようじ', 'balita')}や{kotoba('高齢者', 'こうれいしゃ', 'lansia')}など{kotoba('次', 'つぎ', 'berikut')}に{kotoba('掲げる', 'かかげる', 'mencantumkan')}{kotoba('人', 'ひと', 'orang')}が{kotoba('通行', 'つうこう', 'melintas')}しているときは、{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}か{kotoba('徐行', 'じょこう', 'melaju pelan')}をして、その{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにします。",
+        "id": "Jika orang-orang yang tercantum di bawah ini sedang melintas, berhentilah sejenak (一時停止) atau kurangi kecepatan (徐行) agar Anda tidak menghalangi mereka melintas:"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('高齢の', 'こうれいの', 'lanjut usia')}{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}",
+        "id": "- Pejalan kaki lanjut usia."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('保護者', 'ほごしゃ', 'wali/pendamping')}が{kotoba('付き添わない', 'つきそわない', 'tidak mendampingi')}{kotoba('児童', 'じどう', 'anak-anak')}や{kotoba('幼児', 'ようじ', 'balita')}",
+        "id": "- Anak-anak atau balita yang tidak didampingi oleh walinya."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('身体障害者用', 'しんたいしょうがいしゃよう', 'untuk penyandang cacat fisik')}の{kotoba('車いす', 'くるまいす', 'kursi roda')}に{kotoba('乗った', 'のった', 'naik')}{kotoba('人', 'ひと', 'orang')}",
+        "id": "- Orang yang menggunakan kursi roda khusus difabel."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('身体', 'しんたい', 'fisik')}に{kotoba('障害', 'しょうがい', 'cacat')}のある{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('通行', 'つうこう', 'melintas')}に{kotoba('支障', 'ししょう', 'hambatan')}のある{kotoba('人', 'ひと', 'orang')}",
+        "id": "- Pejalan kaki yang memiliki cacat fisik atau kesulitan berjalan."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('白', 'しろ', 'putih')}または{kotoba('黄色', 'きいろ', 'kuning')}の{kotoba('つえ', '', 'tongkat')}を{kotoba('持った', 'もった', 'membawa')}{kotoba('目', 'め', 'mata')}が{kotoba('見えない', 'みえない', 'tidak bisa melihat')}{kotoba('人', 'ひと', 'orang')}",
+        "id": "- Tuna netra yang membawa tongkat putih atau kuning."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('盲導犬', 'もうどうけん', 'anjing penuntun')}を{kotoba('連れた', 'つれた', 'membawa')}{kotoba('目', 'め', 'mata')}が{kotoba('見えない', 'みえない', 'tidak bisa melihat')}{kotoba('人', 'ひと', 'orang')}",
+        "id": "- Tuna netra yang dipandu anjing penuntun."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('白', 'しろ', 'putih')}または{kotoba('黄色', 'きいろ', 'kuning')}の{kotoba('つえ', '', 'tongkat')}を{kotoba('持った', 'もった', 'membawa')}{kotoba('耳', 'みみ', 'telinga')}が{kotoba('聞こえない', 'きこえない', 'tidak bisa mendengar')}{kotoba('人', 'ひと', 'orang')}や{kotoba('身体', 'しんたい', 'fisik')}に{kotoba('障害', 'しょうがい', 'cacat')}のある{kotoba('人', 'ひと', 'orang')}",
+        "id": "- Tuna rungu atau orang cacat fisik yang membawa tongkat putih atau kuning."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('自転車', 'じてんしゃ', 'sepeda')}の{kotoba('保護', 'ほご', 'perlindungan')}",
+        "id": "・Melindungi Sepeda"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('自転車', 'じてんしゃ', 'sepeda')}は{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('一種', 'いっしゅ', 'satu jenis')}であり、{kotoba('原則', 'げんそく', 'prinsip')}として{kotoba('車道', 'しゃどう', 'jalan kendaraan')}を{kotoba('通行する', 'つうこうする', 'melintas')}こととされています。{kotoba('自転車', 'じてんしゃ', 'sepeda')}は、{kotoba('不安定', 'ふあんてい', 'tidak stabil')}であり、{kotoba('自動車', 'じどうしゃ', 'mobil')}のように{kotoba('運転者', 'うんてんしゃ', 'pengemudi')}の{kotoba('体', 'からだ', 'tubuh')}が{kotoba('守られて', 'まもられて', 'dilindungi')}いません。{kotoba('車道', 'しゃどう', 'jalan kendaraan')}を{kotoba('通行する', 'つうこうする', 'melintas')}{kotoba('自転車', 'じてんしゃ', 'sepeda')}の{kotoba('安全', 'あんぜん', 'keselamatan')}に{kotoba('十分', 'じゅうぶん', 'cukup')}に{kotoba('配慮', 'はいりょ', 'perhatian')}しましょう。",
+        "id": "Sepeda juga merupakan salah satu jenis kendaraan dan pada prinsipnya diwajibkan untuk melaju di badan jalan. Sepeda tidak stabil, dan pengendara sepeda tidak terlindungi bodinya layaknya pengendara mobil. Berikanlah perhatian yang cukup terhadap keselamatan sepeda yang melaju di badan jalan."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('歩道', 'ほどう', 'trotoar')}を{kotoba('横切る', 'よこぎる', 'menyeberangi')}{kotoba('とき', '', 'saat')}",
+        "id": "・Saat Menyeberangi Trotoar"
+    },
+    {
+        "is_header": False,
+        "jp": f"お{kotoba('客様', 'きゃくさま', 'pelanggan')}の{kotoba('構内', 'こうない', 'area dlm')}や{kotoba('営業所', 'えいぎょうしょ', 'kantor')}などに{kotoba('出入りする', 'でいりする', 'keluar masuk')}ために、{kotoba('歩道', 'ほどう', 'trotoar')}や{kotoba('路側帯', 'ろそくたい', 'bahu jalan')}を{kotoba('横切る', 'よこぎる', 'menyeberangi')}ときは、{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}がいない{kotoba('場合', 'ばあい', 'kasus')}でも{kotoba('手前', 'てまえ', 'sebelum')}で{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}しなければいけません。",
+        "id": "Ketika hendak menyeberangi trotoar atau bahu jalan untuk keluar/masuk garasi pelanggan atau kantor, Anda wajib menghentikan kendaraan sejenak sebelum masuk trotoar meskipun tidak ada pejalan kaki."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('路線バス', 'ろせんバス', 'bus umum')}の{kotoba('保護', 'ほご', 'perlindungan')}",
+        "id": "・Melindungi Bus Umum"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('道路', 'どうろ', 'jalan')}には{kotoba('多く', 'おおく', 'banyak')}の{kotoba('路線バス', 'ろせんバス', 'bus umum')}が{kotoba('走って', 'はしって', 'melaju')}います。{kotoba('路線バス', 'ろせんバス', 'bus umum')}は、{kotoba('道路上', 'どうろじょう', 'di jalan')}の{kotoba('停留所', 'ていりゅうじょ', 'halte')}で{kotoba('合図', 'あいず', 'sinyal')}を{kotoba('出して', 'だして', 'mengeluarkan')}、{kotoba('停車する', 'ていしゃする', 'berhenti')}ことがよくあります。バスには{kotoba('多く', 'おおく', 'banyak')}のお{kotoba('客さん', 'きゃくさん', 'penumpang')}が{kotoba('乗って', 'のって', 'naik')}いますので、バスの{kotoba('安全', 'あんぜん', 'keselamatan')}にも{kotoba('十分', 'じゅうぶん', 'cukup')}な{kotoba('配慮', 'はいりょ', 'perhatian')}が{kotoba('必要', 'ひつよう', 'perlu')}です。{kotoba('路線バス', 'ろせんバス', 'bus umum')}が{kotoba('停留所', 'ていりゅうじょ', 'halte')}から{kotoba('発進する', 'はっしんする', 'berangkat')}ため{kotoba('合図', 'あいず', 'sinyal')}をしたときは、{kotoba('急', 'きゅう', 'mendadak')}ブレーキなどで{kotoba('避ける', 'さける', 'menghindari')}こととなる{kotoba('場合', 'ばあい', 'kasus')}を{kotoba('除いて', 'のぞいて', 'kecuali')}、バスに{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲り', 'ゆずり', 'mengalah/memberikan')}、バスの{kotoba('発進', 'はっしん', 'keberangkatan')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにします。",
+        "id": "Ada banyak bus umum yang melintas di jalan raya. Bus umum sering memberi tanda untuk berhenti di halte jalan. Karena bus mengangkut banyak penumpang, Anda harus sangat memperhatikan keselamatan mereka. Saat bus umum di halte menyalakan sinyal (lampu sein) untuk kembali melaju, berikanlah jalur kepada bus tersebut dan jangan halangi bus berangkat, kecuali jika Anda terpaksa melakukan rem mendadak untuk menghindarinya."
+    },
+
+    # --- 4.8 緊急自動車の優先 ---
+    {
+        "is_header": True,
+        "jp": f"４．８ {kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}の{kotoba('優先', 'ゆうせん', 'prioritas')}",
+        "id": "4.8 Prioritas Kendaraan Darurat"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('救急車', 'きゅうきゅうしゃ', 'ambulans')}などの{kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}が{kotoba('接近して', 'せっきんして', 'mendekat')}きたときには、{kotoba('次', 'つぎ', 'berikut')}のような{kotoba('方法', 'ほうほう', 'cara')}で{kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}に{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲り', 'ゆずり', 'mengalah/memberi')}、その{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さ文字', 'tidak menghalangi')}ようにしなければいけません。",
+        "id": "Apabila kendaraan darurat seperti ambulans mendekat, Anda harus memberi jalan dan tidak menghalangi lewatnya dengan cara sebagai berikut:"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('交差点', 'こうさてん', 'persimpangan')}やその{kotoba('付近', 'ふきん', 'sekitar')}では、{kotoba('交差点', 'こうさてん', 'persimpangan')}を{kotoba('避けて', 'さけて', 'menghindari')}{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('左側', 'ひだりがわ', 'sisi kiri')}に{kotoba('寄って', 'よって', 'menepi')}{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}をします。",
+        "id": "① Di persimpangan atau sekitarnya, hindari berhenti di persimpangan, menepilah ke sisi kiri jalan, dan berhentilah sejenak (一時停止)."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('交差点', 'こうさてん', 'persimpangan')}やその{kotoba('付近以外', 'ふきんいがい', 'selain sekitar')}の{kotoba('場所', 'ばしょ', 'tempat')}では、{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('左側', 'ひだりがわ', 'sisi kiri')}に{kotoba('寄って', 'よって', 'menepi')}{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲ります', 'ゆずります', 'memberikan')}。この{kotoba('場合', 'ばあい', 'kasus')}には{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}は{kotoba('義務づけられて', 'ぎむづけられて', 'diwajibkan')}いませんが、{kotoba('状況', 'じょうきょう', 'situasi')}に{kotoba('応じて', 'おうじて', 'sesuai')}{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}をして{kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}の{kotoba('通行', 'つうこう', 'melintas')}を{kotoba('妨げない', 'さまたげない', 'tidak menghalangi')}ようにしましょう。",
+        "id": "② Di tempat selain persimpangan dan sekitarnya, menepilah ke sisi kiri jalan dan berikanlah jalan. Pada kasus ini, Anda tidak diwajibkan untuk berhenti sejenak, namun berhentilah sejenak sesuai dengan situasi agar tidak menghalangi lewatnya kendaraan darurat."
+    },
+    {
+        "is_header": False,
+        "jp": f"③{kotoba('一方通行路', 'いっぽうつうこうろ', 'jalan satu arah')}でも{kotoba('左側', 'ひだりがわ', 'sisi kiri')}に{kotoba('寄って', 'よって', 'menepi')}{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲る', 'ゆずる', 'memberikan')}のが{kotoba('原則', 'げんそく', 'prinsip')}ですが、{kotoba('左側', 'ひだりがわ', 'sisi kiri')}に{kotoba('寄る', 'よる', 'menepi')}とかえって{kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}の{kotoba('通行', 'つうこう', 'melintas')}の{kotoba('妨げ', 'さまたげ', 'hambatan')}となるような{kotoba('場合', 'ばあい', 'kasus')}は、{kotoba('右側', 'みぎがわ', 'sisi kanan')}に{kotoba('寄って', 'よって', 'menepi')}{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲ります', 'ゆずります', 'memberikan')}。",
+        "id": "③ Meskipun berada di jalan satu arah, pada prinsipnya Anda harus menepi ke kiri dan memberi jalan. Namun, jika dengan menepi ke kiri Anda malah menghalangi jalan mobil darurat, menepilah ke sisi kanan dan beri jalan."
+    },
+    {
+        "is_header": False,
+        "jp": f"※{kotoba('緊急自動車', 'きんきゅうじどうしゃ', 'mobil darurat')}は、{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('右側部分', 'みぎがわぶぶん', 'bagian sisi kanan')}にはみ{kotoba('出して', 'だして', 'keluar')}{kotoba('通行する', 'つうこうする', 'melintas')}ことができます。そのような{kotoba('場合', 'ばあい', 'kasus')}は{kotoba('対向車線側', 'たいこうしゃせんがわ', 'sisi jalur berlawanan')}を{kotoba('走行する', 'そうこうする', 'berjalan')}{kotoba('車', 'くるま', 'kendaraan')}も{kotoba('道路', 'どうろ', 'jalan')}の{kotoba('左側', 'ひだりがわ', 'sisi kiri')}に{kotoba('寄って', 'よって', 'menepi')}{kotoba('進路', 'しんろ', 'jalur')}を{kotoba('譲る', 'ゆずる', 'memberikan')}{kotoba('義務', 'ぎむ', 'kewajiban')}があります。",
+        "id": "※ Mobil darurat diperbolehkan melintasi lajur bagian kanan jalan. Dalam kasus demikian, kendaraan yang melintas di jalur arah yang berlawanan juga wajib menepi ke kiri jalan dan memberikan jalan."
+    },
+
+    # --- 4.9 踏切の通行 ---
+    {
+        "is_header": True,
+        "jp": f"４．９ {kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('通行', 'つうこう', 'melintas')}",
+        "id": "4.9 Melintasi Perlintasan Kereta Api"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('車体', 'しゃたい', 'bodi kendaraan')}の{kotoba('大きい', 'おおきい', 'besar')}トラックが{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}で{kotoba('列車', 'れっしゃ', 'kereta api')}と{kotoba('衝突すれば', 'しょうとつすれば', 'jika bertabrakan')}、{kotoba('多く', 'おおく', 'banyak')}の{kotoba('死傷者', 'ししょうしゃ', 'korban tewas dan luka')}を{kotoba('出す', 'だす', 'mengeluarkan')}{kotoba('重大事故', 'じゅうだいじこ', 'kecelakaan fatal')}につながりますから、より{kotoba('一層', 'いっそう', 'lebih')}の{kotoba('慎重な', 'しんちょうな', 'hati-hati')}{kotoba('運転', 'うんてん', 'mengemudi')}が{kotoba('必要', 'ひつよう', 'perlu')}です。",
+        "id": "Apabila truk besar sampai menabrak kereta api di perlintasan, hal ini akan berujung pada kecelakaan fatal yang memakan banyak korban tewas dan luka. Oleh karena itu, diperlukan cara mengemudi yang lebih berhati-hati."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}と{kotoba('安全確認', 'あんぜんかくにん', 'konfirmasi keselamatan')}",
+        "id": "◆ Berhenti Sejenak dan Konfirmasi Keselamatan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('接近した', 'せっきんした', 'mendekat')}ときは{kotoba('減速', 'げんそく', 'kurang kecepatan')}し、{kotoba('停止線', 'ていしせん', 'garis henti')}があるときは{kotoba('停止線', 'ていしせん', 'garis henti')}の{kotoba('直前', 'ちょくぜん', 'tepat sebelum')}、{kotoba('停止線', 'ていしせん', 'garis henti')}がないときは{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('直前', 'ちょくぜん', 'tepat sebelum')}で{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}します。{kotoba('窓', 'まど', 'jendela')}を{kotoba('開ける', 'あける', 'membuka')}などして{kotoba('自分', 'じぶん', 'sendiri')}の{kotoba('目', 'め', 'mata')}と{kotoba('耳', 'みみ', 'telinga')}で{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('左右', 'さゆう', 'kiri dan kanan')}の{kotoba('安全確認', 'あんぜんかくにん', 'konfirmasi keselamatan')}をします。",
+        "id": "Saat mendekati perlintasan kereta, kurangi kecepatan, dan hentikan kendaraan sejenak tepat di depan garis berhenti (jika ada), atau tepat di depan perlintasan (jika tidak ada garis henti). Buka kaca jendela agar Anda dapat menggunakan mata dan telinga untuk memastikan perlintasan di sebelah kiri dan kanan aman."
+    },
+    {
+        "is_header": False,
+        "jp": f"※{kotoba('前車', 'ぜんしゃ', 'kendaraan depan')}に{kotoba('続いて', 'つづいて', 'mengikuti')}{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}を{kotoba('通過する', 'つうかする', 'lewat')}{kotoba('場合', 'ばあい', 'kasus')}でも、{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}して{kotoba('安全確認', 'あんぜんかくにん', 'konfirmasi keselamatan')}をする{kotoba('必要', 'ひつよう', 'perlu')}があります。",
+        "id": "※ Meskipun Anda melewati perlintasan dengan membuntuti mobil di depan Anda, Anda tetap wajib berhenti sejenak untuk memeriksa keamanan."
+    },
+    {
+        "is_header": False,
+        "jp": f"※{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('信号機', 'しんごうき', 'lampu lalu lintas')}が{kotoba('設置されて', 'せっちされて', 'terpasang')}いて、{kotoba('青信号', 'あおしんごう', 'lampu hijau')}のときは{kotoba('一時停止', 'いちじていし', 'berhenti sementara')}せずに{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}を{kotoba('通過する', 'つうかする', 'lewat')}ことができますが、この{kotoba('場合', 'ばあい', 'kasus')}でも{kotoba('左右', 'さゆう', 'kiri dan kanan')}の{kotoba('安全確認', 'あんぜんかくにん', 'konfirmasi keselamatan')}はしなければいけません。",
+        "id": "※ Jika perlintasan dilengkapi lampu lalu lintas dan sedang berwarna hijau, Anda bisa melintas tanpa harus berhenti sejenak. Meski demikian, Anda tetap wajib mengecek sisi kanan dan kiri terlebih dahulu."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('進入してはいけない', 'しんにゅうしてはいけない', 'tidak boleh masuk')}{kotoba('場合', 'ばあい', 'kasus')}",
+        "id": "・Kapan Anda DILARANG Memasuki Perlintasan Kereta Api"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('警報機', 'けいほうき', 'alarm')}が{kotoba('鳴り始めた', 'なりはじめた', 'mulai bunyi')}ときや、{kotoba('遮断機', 'しゃだんき', 'palang perlintasan')}が{kotoba('降り始めたり', 'おりはじめたり', 'mulai turun')}、{kotoba('降りている', 'おりている', 'sedang turun')}ときは、{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('進入してはいけません', 'しんにゅうしてはいけません', 'tidak boleh masuk')}。",
+        "id": "① Anda dilarang memasuki perlintasan saat alarm tanda kereta mulai berbunyi, atau saat palang perlintasan mulai turun atau sedang turun."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('先', 'さき', 'setelah/depan')}の{kotoba('道路', 'どうろ', 'jalan')}が{kotoba('渋滞', 'じゅうたい', 'macet')}などにより{kotoba('混雑している', 'こんざつしている', 'padat')}ときに{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('進入する', 'しんにゅうする', 'masuk')}と、{kotoba('踏切内', 'ふみきりない', 'dalam perlintasan')}で{kotoba('動き', 'うごき', 'pergerakan')}がとれなくなる{kotoba('おそれ', '', 'kekhawatiran')}があります。{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('進入する', 'しんにゅうする', 'masuk')}{kotoba('前', 'まえ', 'sebelum')}には、{kotoba('必ず', 'かならず', 'pasti/selalu')}{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('先', 'さき', 'setelah/depan')}の{kotoba('道路状況', 'どうろじょうきょう', 'kondisi jalan')}を{kotoba('確認', 'かくにん', 'konfirmasi')}し、トラックの{kotoba('入れる', 'いれる', 'bisa masuk')}{kotoba('十分な', 'じゅうぶんな', 'cukup')}{kotoba('場所', 'ばしょ', 'tempat')}がない{kotoba('場合', 'ばあい', 'kasus')}には、{kotoba('絶対', 'ぜったい', 'mutlak')}に{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}に{kotoba('進入してはいけません', 'しんにゅうしてはいけません', 'tidak boleh masuk')}。",
+        "id": "② Jika jalan di depan perlintasan sedang macet parah, memasuki perlintasan akan berisiko membuat kendaraan Anda terjebak dan tidak bisa bergerak di tengah rel kereta. Sebelum memasuki perlintasan kereta, Anda harus memeriksa keadaan jalan di depan. Apabila tidak ada ruang yang cukup agar truk Anda bisa masuk dan lewat, Anda MUTLAK DILARANG memasuki perlintasan."
+    },
+    {
+        "is_header": True,
+        "jp": f"・{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}の{kotoba('通行方法', 'つうこうほうほう', 'cara lewat')}",
+        "id": "・Cara Melintasi Perlintasan Kereta Api"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('踏切通行中', 'ふみきりつうかちゅう', 'saat lewat perlintasan')}のエンジンの{kotoba('停止', 'ていし', 'berhenti')}（エンスト）を{kotoba('防止する', 'ぼうしする', 'mencegah')}ために、{kotoba('踏切内', 'ふみきりない', 'dalam perlintasan')}では、{kotoba('変速せず', 'へんそくせず', 'tanpa oper gigi')}{kotoba('発進した', 'はっしんした', 'telah melaju')}ときの{kotoba('低速', 'ていそく', 'gigi rendah')}ギアのままで{kotoba('通過', 'つうか', 'melewati')}します。",
+        "id": "① Untuk mencegah terjadinya mati mesin di tengah perlintasan, jangan pindah gigi saat berada di dalam perlintasan kereta. Terus melaju dengan gigi rendah yang Anda pakai saat mulai jalan."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('歩行者', 'ほこうしゃ', 'pejalan kaki')}や{kotoba('自転車', 'じてんしゃ', 'sepeda')}、{kotoba('対向車', 'たいこうしゃ', 'kendaraan dari depan')}に{kotoba('注意', 'ちゅうい', 'perhatian')}しながら、{kotoba('落輪しない', 'らくりんしない', 'roda tidak jatuh')}ようやや{kotoba('中央寄り', 'ちゅうおうより', 'agak ke tengah')}を{kotoba('走行', 'そうこう', 'berjalan/melaju')}します。",
+        "id": "② Tetap waspada terhadap pejalan kaki, sepeda, dan kendaraan yang melaju dari arah berlawanan, lalu melajulah agak ke tengah perlintasan agar roda kendaraan tidak terperosok."
+    },
+    {
+        "is_header": True,
+        "jp": f"【{kotoba('踏切内', 'ふみきりない', 'dalam perlintasan')}で{kotoba('動き', 'うごき', 'pergerakan')}がとれなくなったときの{kotoba('措置', 'そち', 'tindakan')}】",
+        "id": "[Tindakan Apabila Kendaraan Terjebak dan Tidak Bisa Bergerak di Tengah Perlintasan]"
+    },
+    {
+        "is_header": False,
+        "jp": f"①{kotoba('警報機', 'けいほうき', 'alarm')}のある{kotoba('踏切', 'ふみきり', 'perlintasan kereta api')}では、{kotoba('警報機', 'けいほうき', 'alarm')}の{kotoba('柱', 'はしら', 'tiang')}などに{kotoba('取り付けて', 'とりつけて', 'terpasang')}ある{kotoba('非常', 'ひじょう', 'darurat')}を{kotoba('知らせる', 'しらせる', 'memberi tahu')}ボタンを{kotoba('使います', 'つかいます', 'menggunakan')}。",
+        "id": "① Jika perlintasan dilengkapi alarm, gunakanlah tombol darurat yang terpasang di tiang alarm."
+    },
+    {
+        "is_header": False,
+        "jp": f"②{kotoba('非常', 'ひじょう', 'darurat')}を{kotoba('知らせる', 'しらせる', 'memberi tahu')}ボタンがない{kotoba('場合', 'ばあい', 'kasus')}には、{kotoba('車', 'くるま', 'kendaraan')}に{kotoba('備えている', 'そなえている', 'menyediakan')}{kotoba('発炎筒', 'はつえんとう', 'suar/flare')}などを{kotoba('使用して', 'しようして', 'menggunakan')}、できるだけ{kotoba('早く', 'はやく', 'cepat')}{kotoba('列車', 'れっしゃ', 'kereta api')}にわかるように{kotoba('合図', 'あいず', 'sinyal')}をします。",
+        "id": "② Jika tidak ada tombol darurat, gunakan alat sinyal seperti flare/suar yang disediakan di dalam kendaraan untuk memberi sinyal pada kereta api secepatnya."
+    },
+    {
+        "is_header": False,
+        "jp": f"③{kotoba('発炎筒', 'はつえんとう', 'suar/flare')}がなかったり{kotoba('使い切って', 'つかいきって', 'telah habis')}{kotoba('しまっている', '', 'kondisi')}ときは、{kotoba('煙', 'けむり', 'asap')}の{kotoba('出やすい', 'でやすい', 'mudah keluar')}ものを{kotoba('燃やす', 'もやす', 'membakar')}などして{kotoba('列車', 'れっしゃ', 'kereta api')}に{kotoba('合図', 'あいず', 'sinyal')}をします。",
+        "id": "③ Jika flare tidak tersedia atau sudah habis, bakarlah sesuatu yang dapat mengeluarkan banyak asap sebagai sinyal peringatan kepada kereta api."
+    },
+
+    # --- 4.10 高速道路の走行 ---
+    {
+        "is_header": True,
+        "jp": f"４．１０ {kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}の{kotoba('走行', 'そうこう', 'berjalan/melaju')}",
+        "id": "4.10 Berkendara di Jalan Tol"
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('車', 'くるま', 'kendaraan')}の{kotoba('点検', 'てんけん', 'inspeksi/pemeriksaan')}",
+        "id": "◆ Pemeriksaan (Inspeksi) Kendaraan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}を{kotoba('通行する', 'つうこうする', 'melintas')}{kotoba('場合', 'ばあい', 'kasus')}は、{kotoba('燃料', 'ねんりょう', 'bahan bakar')}、{kotoba('冷却水', 'れいきゃくすい', 'air pendingin')}、エンジンオイルの{kotoba('不足', 'ふそく', 'kekurangan')}により、{kotoba('停止する', 'ていしする', 'berhenti')}ことのないよう、とくに{kotoba('次', 'つぎ', 'berikut')}の{kotoba('点検', 'てんけん', 'inspeksi/pemeriksaan')}をする{kotoba('必要', 'ひつよう', 'perlu')}があります。",
+        "id": "Saat akan melalui jalan tol, Anda wajib melakukan pemeriksaan pada hal-hal berikut agar kendaraan tidak tiba-tiba berhenti karena kehabisan bahan bakar, air pendingin radiator, maupun oli mesin."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('燃料', 'ねんりょう', 'bahan bakar')}の{kotoba('量', 'りょう', 'jumlah')}が{kotoba('十分', 'じゅうぶん', 'cukup')}であるか。",
+        "id": "・Apakah jumlah bahan bakar cukup?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('冷却水', 'れいきゃくすい', 'air pendingin')}の{kotoba('量', 'りょう', 'jumlah')}が{kotoba('規定', 'きてい', 'standar/ketentuan')}の{kotoba('範囲内', 'はんいない', 'dalam batas')}にあるか。",
+        "id": "・Apakah volume air pendingin ada pada batas yang ditentukan?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・ラジエータキャップが{kotoba('確実', 'かくじつ', 'pasti/kuat')}に{kotoba('締まっている', 'しまっている', 'kencang')}か。",
+        "id": "・Apakah tutup radiator terpasang kencang?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・エンジンオイルの{kotoba('量', 'りょう', 'jumlah')}が{kotoba('適当', 'てきとう', 'sesuai/cukup')}であるか。",
+        "id": "・Apakah jumlah oli mesin sudah memadai?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・ファンベルトの{kotoba('張り具合', 'はりぐあい', 'tingkat kekencangan')}が{kotoba('適当', 'てきとう', 'sesuai/cukup')}であるか、また、{kotoba('損傷', 'そんしょう', 'kerusakan')}がないか。",
+        "id": "・Apakah tingkat ketegangan V-belt/fan belt pas dan tidak ada kerusakan padanya?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・タイヤの{kotoba('空気圧', 'くうきあつ', 'tekanan angin')}が{kotoba('適当', 'てきとう', 'sesuai/cukup')}であるか。",
+        "id": "・Apakah tekanan angin ban sudah pas?"
+    },
+    {
+        "is_header": False,
+        "jp": f"・タイヤの{kotoba('溝', 'みぞ', 'alur/kembangan')}の{kotoba('深さ', 'ふかさ', 'kedalaman')}が{kotoba('十分', 'じゅうぶん', 'cukup')}であるか。",
+        "id": "・Apakah alur (kembangan) ban masih cukup dalam?"
+    },
+    {
+        "is_header": True,
+        "jp": f"▶{kotoba('積荷', 'つみに', 'muatan barang')}の{kotoba('点検', 'てんけん', 'inspeksi/pemeriksaan')}",
+        "id": "▶ Pemeriksaan Barang Muatan"
+    },
+    {
+        "is_header": False,
+        "jp": f"{kotoba('高速走行', 'こうそくそうこう', 'berjalan kecepatan tinggi')}で{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('落として', 'おとして', 'menjatuhkan')}しまうとたいへん{kotoba('危険', 'きけん', 'bahaya')}です。{kotoba('高速道路', 'こうそくどうろ', 'jalan tol')}を{kotoba('通行する', 'つうこうする', 'melintas')}ときは、{kotoba('前もって', 'まえもって', 'sebelumnya')}{kotoba('荷物', 'にもつ', 'barang')}が{kotoba('落ちたり', 'おちたり', 'jatuh')}{kotoba('飛んだり', 'とんだり', 'terbang')}しないように{kotoba('点検', 'ていけん', 'inspeksi/pemeriksaan')}し、{kotoba('荷物', 'にもつ', 'barang')}を{kotoba('積み直す', 'つみなおす', 'memuat ulang')}など{kotoba('必要な', 'ひつような', 'perlu')}{kotoba('措置', 'そち', 'tindakan')}をとらなければいけません。",
+        "id": "Akan sangat berbahaya jika muatan sampai jatuh ke jalan saat melaju dalam kecepatan tinggi. Sebelum melintasi jalan tol, Anda wajib mengecek apakah muatan berisiko jatuh atau terbang. Jika ada, lakukan tindakan perbaikan seperti memuatnya ulang."
+    },
+    {
+        "is_header": True,
+        "jp": f"◆{kotoba('通行区分', 'つうこうくぶん', 'jalur kendaraan')}の{kotoba('遵守', 'じゅんしゅ', 'kepatuhan')}",
+        "id": "◆ Mematuhi Aturan Lajur Kendaraan"
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('一番', 'いちばん', 'paling')}{kotoba('右側', 'みぎがわ', 'sisi kanan')}の{kotoba('車通行帯', 'しゃつうこうたい', 'jalur kendaraan')}（{kotoba('追越車線', 'おいこししゃせん', 'jalur menyalip')}）は{kotoba('追越し', 'おいこし', 'menyalip')}のために{kotoba('空けて', 'あけて', 'mengosongkan')}おき、{kotoba('走行車線', 'そうこうしゃせん', 'jalur mengemudi')}のやや{kotoba('左側', 'ひだりがわ', 'sisi kiri')}を{kotoba('走行', 'そうこう', 'berjalan/melaju')}します。",
+        "id": "・Kosongkan lajur kendaraan yang paling kanan (lajur untuk mendahului), dan berkendaralah agak ke kiri di dalam lajur yang semestinya."
+    },
+    {
+        "is_header": False,
+        "jp": f"・トレーラは、{kotoba('高速自動車国道', 'こうそくじどうしゃこくどう', 'jalan tol nasional')}においては、{kotoba('標識', 'ひょうしき', 'rambu')}などで{kotoba('車線', 'しゃせん', 'jalur')}が{kotoba('指定されて', 'していされて', 'ditentukan')}いる{kotoba('場合', 'ばあい', 'kasus')}などを{kotoba('除いて', 'のぞいて', 'kecuali')}、{kotoba('一番', 'いちばん', 'paling')}{kotoba('左側', 'ひだりがわ', 'sisi kiri')}の{kotoba('車線', 'しゃせん', 'jalur')}を{kotoba('走行', 'そうこう', 'berjalan/melaju')}します。",
+        "id": "・Di jalan tol nasional, truk trailer wajib melaju di lajur paling kiri, kecuali jika ada ketentuan jalur tertentu yang ditetapkan oleh rambu lalu lintas."
+    },
+    {
+        "is_header": False,
+        "jp": f"・トレーラは、{kotoba('自動車専用道路', 'じどうしゃせんようどうろ', 'jalan khusus mobil')}においては、{kotoba('標識', 'ひょうしき', 'rambu')}などで{kotoba('指定された', 'していされた', 'ditentukan')}{kotoba('区間', 'くかん', 'area/bagian')}については、{kotoba('一番', 'いちばん', 'paling')}{kotoba('左側', 'ひだりがわ', 'sisi kiri')}の{kotoba('車線', 'しゃせん', 'jalur')}を{kotoba('走行', 'そうこう', 'berjalan/melaju')}します。",
+        "id": "・Di jalan tol khusus kendaraan, truk trailer juga wajib melaju di lajur paling kiri pada area-area yang ditetapkan oleh rambu lalu lintas."
+    },
+    {
+        "is_header": False,
+        "jp": f"・{kotoba('路肩', 'ろかた', 'bahu jalan')}や{kotoba('路側帯', 'ろそくたい', 'pinggir jalan')}を{kotoba('走行してはいけません', 'そうこうしてはいけません', 'tidak boleh berjalan')}。",
+        "id": "・Dilarang berkendara di pinggir jalan/trotoar atau di bahu jalan."
+    }
 # Data lanjutan materi (Bab 4.11 - 7.2)
-data_lanjutan = [
     {
         "is_header": True,
         "jp": f"4.11 {kotoba('坂道', 'さかみち', 'jalan tanjakan/turunan')}・カーブ・トンネルの{kotoba('走行', 'そうこう', 'berjalan/melaju')}",
