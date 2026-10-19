@@ -4,7 +4,7 @@ def kotoba(kanji, furigana, arti):
     return f"<div style='display: inline-flex; flex-direction: column; align-items: center; vertical-align: bottom; margin: 0 2px;'><span style='font-size: 0.6em; line-height: 1.1; color: #e63946; font-weight: bold;'>{furigana_html}</span><span style='font-size: 1.2em; line-height: 1.2; font-weight: 500; color: #0f172a;'>{kanji}</span><span style='font-size: 0.6em; line-height: 1.1; color: #1d3557;'>{arti}</span></div>"
 
 # Data berurutan ke bawah untuk scroll panjang
-data_bab1 =
+data_bab1 = [
     {
         "is_header": True,
         "jp": f"１ {kotoba('人々', 'ひとびと', 'orang-orang')}の{kotoba('生活', 'せいかつ', 'kehidupan')}や{kotoba('仕事', 'しごと', 'pekerjaan')}を{kotoba('支える', 'ささえる', 'mendukung')}トラック",
