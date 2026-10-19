@@ -45,7 +45,9 @@ data_bab1 = [
         "jp": f"トラック{kotoba('輸送', 'ゆそう', 'transportasi')}は、{kotoba('人々', 'ひとびと', 'orang-orang')}が{kotoba('仕事', 'しごと', 'pekerjaan')}をしたり、{kotoba('生活', 'せいかつ', 'kehidupan')}をしたりするためにとても{kotoba('大切', 'たいせつ', 'penting')}です。もしも{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のトラック{kotoba('輸送', 'ゆそう', 'transportasi')}が{kotoba('止', 'と', 'berhenti')}まったら、{kotoba('商品', 'しょうひん', 'produk')}や{kotoba('部品', 'ぶひん', 'suku cadang')}、{kotoba('薬', 'くすり', 'obat')}などが{kotoba('運', 'はこ', 'mengangkut')}べなくなり、{kotoba('日本中', 'にほんじゅう', 'seluruh Jepang')}のお{kotoba('店', 'みせ', 'toko')}や{kotoba('工場', 'こうじょう', 'pabrik')}、{kotoba('病院', 'びょういん', 'rumah sakit')}などで{kotoba('仕事', 'しごと', 'bekerja')}ができなくなってしまいます。",
         "id": "Transportasi truk sangat penting bagi orang-orang untuk bekerja dan menjalani kehidupan. Jika transportasi truk di seluruh Jepang terhenti, barang dagangan, suku cadang, obat-obatan, dll. tidak akan bisa diangkut, dan toko-toko, pabrik-pabrik, rumah sakit, dll. di seluruh Jepang tidak akan bisa beroperasi."
     }
-    # Data lanjutan materi (Bab 4.11 - 7.2)
+]
+# Data lanjutan materi (Bab 4.11 - 7.2)
+data_lanjutan = [
     {
         "is_header": True,
         "jp": f"4.11 {kotoba('坂道', 'さかみち', 'jalan tanjakan/turunan')}・カーブ・トンネルの{kotoba('走行', 'そうこう', 'berjalan/melaju')}",
