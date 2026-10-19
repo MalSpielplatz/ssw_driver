@@ -2,10 +2,7 @@ import asyncio
 import re
 import edge_tts
 import streamlit as st
-from data_bab1 import data_bab1, data_lanjutan
-
-# Gabungkan list data materi Bab 1
-data_bab1_lengkap = data_bab1 + data_lanjutan
+from data_bab1 import data_bab1
 
 st.set_page_config(
     page_title="Modul SSW Truk",
@@ -102,7 +99,7 @@ if selected_bab.startswith("Bab 1"):
     st.divider()
 
     # Looping seluruh isi Bab 1 secara berurutan
-    for i, item in enumerate(data_bab1_lengkap):
+    for i, item in enumerate(data_bab1):
         if item.get("is_header"):
             st.markdown(
                 f"<h3 style='color:#1e293b; margin-top: 25px;'>{item['jp']} <br> <span style='font-size:0.75em; color:#64748b;'>{item['id']}</span></h3>",
